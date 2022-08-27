@@ -1,0 +1,8 @@
+POST https://localhost:8090/api/member/signup
+Content-Type: application/json
+
+{
+"nickname":"kiyeon",
+"password":"1234",
+"passwordConfirm":"1234"
+}
