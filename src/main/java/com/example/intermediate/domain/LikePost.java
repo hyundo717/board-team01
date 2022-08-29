@@ -1,6 +1,5 @@
 package com.example.intermediate.domain;
 
-import com.example.intermediate.controller.request.LikePostDto;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
@@ -22,10 +21,7 @@ public class LikePost {
     @ManyToOne(fetch = FetchType.LAZY)
     private Member member;
 
+    @Column(nullable = false)
     private Long postId;
 
-    public void update(LikePostDto likePostDto) {
-        this.member = likePostDto.getMember();
-        this.postId = likePostDto.getPostId();
-    }
 }

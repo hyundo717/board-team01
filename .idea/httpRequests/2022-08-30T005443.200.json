@@ -1,0 +1,10 @@
+{
+  "success": true,
+  "data": {
+    "id": 1,
+    "nickname": "kiyeon",
+    "createdAt": "2022-08-30T00:54:40.254429",
+    "modifiedAt": "2022-08-30T00:54:40.254429"
+  },
+  "error": null
+}

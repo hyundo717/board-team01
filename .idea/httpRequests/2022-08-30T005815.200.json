@@ -1,0 +1,8 @@
+{
+  "success": false,
+  "data": null,
+  "error": {
+    "code": "TOKEN_NOT_FOUND",
+    "message": "존재하지 않는 Token 입니다."
+  }
+}

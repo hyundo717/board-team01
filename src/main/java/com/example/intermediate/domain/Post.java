@@ -35,7 +35,7 @@ public class Post extends Timestamped {
   private String content;
 
   @Column
-  private int likesNum = 0;
+  private int likesNum;
 
   @OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL, orphanRemoval = true)
   private List<Comment> comments;

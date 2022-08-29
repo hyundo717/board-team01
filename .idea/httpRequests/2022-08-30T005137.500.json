@@ -1,0 +1,6 @@
+{
+  "timestamp": "2022-08-29T15:51:37.167+00:00",
+  "status": 500,
+  "error": "Internal Server Error",
+  "path": "/api/member/signup"
+}

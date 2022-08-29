@@ -31,6 +31,11 @@ public class MemberController {
     return memberService.login(requestDto, response);
   }
 
+  @RequestMapping(value = "/api/auth/member/mypage", method = RequestMethod.GET)
+  public ResponseDto<?> mypage(HttpServletRequest request) {
+    return memberService.mypage(request);
+  }
+
 //  @RequestMapping(value = "/api/auth/member/reissue", method = RequestMethod.POST)
 //  public ResponseDto<?> reissue(HttpServletRequest request, HttpServletResponse response) {
 //    return memberService.reissue(request, response);

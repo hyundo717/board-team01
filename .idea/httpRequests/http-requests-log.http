@@ -1,0 +1,487 @@
+GET http://localhost:8090/api/auth/member/mypage
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5dXl1eSIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTc5MzYyNH0.fTIRrYKziaS8mSAO6EgqyTS9VxJkGAxYlp9dgWtVnf0
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjIzOTY2MjR9.C0u7UXIRA-RH1LAB53vyG9sPiBsMyIvBDXtysuveFDY
+
+<> 2022-08-30T015149.200.json
+
+###
+
+POST http://localhost:8090/api/auth/member/mypage
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5dXl1eSIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTc5MzYyNH0.fTIRrYKziaS8mSAO6EgqyTS9VxJkGAxYlp9dgWtVnf0
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjIzOTY2MjR9.C0u7UXIRA-RH1LAB53vyG9sPiBsMyIvBDXtysuveFDY
+
+<> 2022-08-30T015141.405.json
+
+###
+
+POST http://localhost:8090/api/auth/like/post/2
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5dXl1eSIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTc5MzYyNH0.fTIRrYKziaS8mSAO6EgqyTS9VxJkGAxYlp9dgWtVnf0
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjIzOTY2MjR9.C0u7UXIRA-RH1LAB53vyG9sPiBsMyIvBDXtysuveFDY
+
+<> 2022-08-30T015122.200.json
+
+###
+
+POST http://localhost:8090/api/auth/like/post/2
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5dXl1eSIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTc5MDUwM30.hLbqW_wQT2VcF9mH6AEasAZO3d8BP0Bvhp0fVjnluYU
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjIzOTM1MDN9.F3jq1c_Hfw0Pos8arCJE1y7nTH7zZh9ogDSSI1DiDPo
+
+<> 2022-08-30T015116.401.json
+
+###
+
+POST http://localhost:8090/api/auth/like/post/2
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5dXl1eSIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTc5MDUwM30.hLbqW_wQT2VcF9mH6AEasAZO3d8BP0Bvhp0fVjnluYU
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjIzOTM1MDN9.F3jq1c_Hfw0Pos8arCJE1y7nTH7zZh9ogDSSI1DiDPo
+
+<> 2022-08-30T015103.401.json
+
+###
+
+POST http://localhost:8090/api/auth/like/post/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5dXl1eSIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTc5MzYyNH0.fTIRrYKziaS8mSAO6EgqyTS9VxJkGAxYlp9dgWtVnf0
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjIzOTY2MjR9.C0u7UXIRA-RH1LAB53vyG9sPiBsMyIvBDXtysuveFDY
+
+<> 2022-08-30T015045.200.json
+
+###
+
+POST http://localhost:8090/api/auth/like/post/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5dXl1eSIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTc5MzYyNH0.fTIRrYKziaS8mSAO6EgqyTS9VxJkGAxYlp9dgWtVnf0
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjIzOTY2MjR9.C0u7UXIRA-RH1LAB53vyG9sPiBsMyIvBDXtysuveFDY
+
+<> 2022-08-30T015038.200.json
+
+###
+
+POST http://localhost:8090/api/auth/like/post/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5dXl1eSIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTc5MzYyNH0.fTIRrYKziaS8mSAO6EgqyTS9VxJkGAxYlp9dgWtVnf0
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjIzOTY2MjR9.C0u7UXIRA-RH1LAB53vyG9sPiBsMyIvBDXtysuveFDY
+
+<> 2022-08-30T015033.200.json
+
+###
+
+POST http://localhost:8090/api/member/login
+Content-Type: application/json
+
+{
+  "nickname":"yuyuy",
+  "password":"1111"
+}
+
+<> 2022-08-30T015024.200.json
+
+###
+
+POST http://localhost:8090/api/member/signup
+Content-Type: application/json
+
+{
+  "nickname":"yuyuy",
+  "password":"1111",
+  "passwordConfirm":"1111"
+}
+
+<> 2022-08-30T015020.200.json
+
+###
+
+POST http://localhost:8090/api/auth/member/logout
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJybGR1cyIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTc5MzU0M30.V-USo0EeIhjh2ggtkecOn5-vr4-Rv2bYySMMAZuHqdk
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjIzOTY1NDN9.mmJfzzCEvtz90o31Jrd-qGsNkr9Os_r7Wu2vlir_nZk
+
+<> 2022-08-30T015013.200.json
+
+###
+
+POST http://localhost:8090/api/auth/like/post/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJybGR1cyIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTc5MzU0M30.V-USo0EeIhjh2ggtkecOn5-vr4-Rv2bYySMMAZuHqdk
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjIzOTY1NDN9.mmJfzzCEvtz90o31Jrd-qGsNkr9Os_r7Wu2vlir_nZk
+
+<> 2022-08-30T014959.200.json
+
+###
+
+POST http://localhost:8090/api/auth/like/post/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJybGR1cyIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTc5MzU0M30.V-USo0EeIhjh2ggtkecOn5-vr4-Rv2bYySMMAZuHqdk
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjIzOTY1NDN9.mmJfzzCEvtz90o31Jrd-qGsNkr9Os_r7Wu2vlir_nZk
+
+<> 2022-08-30T014941.200.json
+
+###
+
+POST http://localhost:8090/api/auth/like/post/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJybGR1cyIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTc5MDMyNX0.VEDl3NGuKzh0g9bVwBkK2Mb8aun-pNGQ7yuPIClf90M
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjIzOTMzMjV9.APlMl0LwwaIf7W-wU_ep-ygHAb5eYBTkQwU8XXe_j7Q
+
+<> 2022-08-30T014931.401.json
+
+###
+
+POST http://localhost:8090/api/auth/like/post/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJybGR1cyIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTc5MzU0M30.V-USo0EeIhjh2ggtkecOn5-vr4-Rv2bYySMMAZuHqdk
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjIzOTY1NDN9.mmJfzzCEvtz90o31Jrd-qGsNkr9Os_r7Wu2vlir_nZk
+
+<> 2022-08-30T014916.200.json
+
+###
+
+POST http://localhost:8090/api/auth/comment
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJybGR1cyIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTc5MzU0M30.V-USo0EeIhjh2ggtkecOn5-vr4-Rv2bYySMMAZuHqdk
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjIzOTY1NDN9.mmJfzzCEvtz90o31Jrd-qGsNkr9Os_r7Wu2vlir_nZk
+Content-Type: application/json
+
+{
+  "postId": "1",
+  "content": "ㅋㅋㅋㅋㅋ"
+}
+
+<> 2022-08-30T014912.200.json
+
+###
+
+POST http://localhost:8090/api/member/login
+Content-Type: application/json
+
+{
+  "nickname":"rldus",
+  "password":"12345"
+}
+
+<> 2022-08-30T014904.200.json
+
+###
+
+POST http://localhost:8090/api/member/signup
+Content-Type: application/json
+
+{
+  "nickname":"rldus",
+  "password":"12345",
+  "passwordConfirm":"12345"
+}
+
+<> 2022-08-30T014901.200.json
+
+###
+
+POST http://localhost:8090/api/auth/member/logout
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE3OTM1MTl9.QYjc7BL7BFU5n0FehypBBWkvIGvuZchu_t-mpXllD0E
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjIzOTY1MTl9.WKRcab01ngGLUt046JcwBSoLj2uQF2jpxaUv7L_usSY
+
+<> 2022-08-30T014858.200.json
+
+###
+
+POST http://localhost:8090/api/auth/post
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE3OTM1MTl9.QYjc7BL7BFU5n0FehypBBWkvIGvuZchu_t-mpXllD0E
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjIzOTY1MTl9.WKRcab01ngGLUt046JcwBSoLj2uQF2jpxaUv7L_usSY
+Content-Type: application/json
+
+{
+  "title": "빵 만들기2",
+  "content": "사실 만들 줄 모름2"
+}
+
+<> 2022-08-30T014853.200.json
+
+###
+
+POST http://localhost:8090/api/auth/post
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE3OTM1MTl9.QYjc7BL7BFU5n0FehypBBWkvIGvuZchu_t-mpXllD0E
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjIzOTY1MTl9.WKRcab01ngGLUt046JcwBSoLj2uQF2jpxaUv7L_usSY
+Content-Type: application/json
+
+{
+  "title": "빵 만들기",
+  "content": "사실 만들 줄 모름"
+}
+
+<> 2022-08-30T014848.200.json
+
+###
+
+POST http://localhost:8090/api/member/login
+Content-Type: application/json
+
+{
+  "nickname":"kiyeon",
+  "password":"1234"
+}
+
+<> 2022-08-30T014840.200.json
+
+###
+
+POST http://localhost:8090/api/auth/post
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE3OTAyODN9.KoB6N44KPU3q12qNwJaq2geUVltfhyD2j6kiqMQdCnE
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjIzOTMyODN9._gRyL-kbaUGGpOk8B7UvNVOtVCw6yvvLUm6UA6nGSW4
+Content-Type: application/json
+
+{
+  "title": "빵 만들기2",
+  "content": "사실 만들 줄 모름2"
+}
+
+<> 2022-08-30T014836.401.json
+
+###
+
+POST http://localhost:8090/api/auth/post
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE3OTAyODN9.KoB6N44KPU3q12qNwJaq2geUVltfhyD2j6kiqMQdCnE
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjIzOTMyODN9._gRyL-kbaUGGpOk8B7UvNVOtVCw6yvvLUm6UA6nGSW4
+Content-Type: application/json
+
+{
+  "title": "빵 만들기",
+  "content": "사실 만들 줄 모름"
+}
+
+<> 2022-08-30T014830.401.json
+
+###
+
+POST http://localhost:8090/api/member/login
+Content-Type: application/json
+
+{
+  "nickname":"kiyeon",
+  "password":"1234"
+}
+
+<> 2022-08-30T014826.200.json
+
+###
+
+POST http://localhost:8090/api/member/signup
+Content-Type: application/json
+
+{
+  "nickname":"kiyeon",
+  "password":"1234",
+  "passwordConfirm":"1234"
+}
+
+<> 2022-08-30T014812.200.json
+
+###
+
+POST http://localhost:8090/api/auth/like/post/2
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5dXl1eSIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTc5MDUwM30.hLbqW_wQT2VcF9mH6AEasAZO3d8BP0Bvhp0fVjnluYU
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjIzOTM1MDN9.F3jq1c_Hfw0Pos8arCJE1y7nTH7zZh9ogDSSI1DiDPo
+
+<> 2022-08-30T005909.200.json
+
+###
+
+POST http://localhost:8090/api/auth/like/post/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5dXl1eSIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTc5MDUwM30.hLbqW_wQT2VcF9mH6AEasAZO3d8BP0Bvhp0fVjnluYU
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjIzOTM1MDN9.F3jq1c_Hfw0Pos8arCJE1y7nTH7zZh9ogDSSI1DiDPo
+
+<> 2022-08-30T005833.200.json
+
+###
+
+POST http://localhost:8090/api/member/login
+Content-Type: application/json
+
+{
+  "nickname":"yuyuy",
+  "password":"1111"
+}
+
+<> 2022-08-30T005823.200.json
+
+###
+
+POST http://localhost:8090/api/member/signup
+Content-Type: application/json
+
+{
+  "nickname":"yuyuy",
+  "password":"1111",
+  "passwordConfirm":"1111"
+}
+
+<> 2022-08-30T005821.200.json
+
+###
+
+POST http://localhost:8090/api/auth/member/logout
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJybGR1cyIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTc5MDMyNX0.VEDl3NGuKzh0g9bVwBkK2Mb8aun-pNGQ7yuPIClf90M
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjIzOTMzMjV9.APlMl0LwwaIf7W-wU_ep-ygHAb5eYBTkQwU8XXe_j7Q
+
+<> 2022-08-30T005815.200.json
+
+###
+
+POST http://localhost:8090/api/auth/member/logout
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJybGR1cyIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTc5MDMyNX0.VEDl3NGuKzh0g9bVwBkK2Mb8aun-pNGQ7yuPIClf90M
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjIzOTMzMjV9.APlMl0LwwaIf7W-wU_ep-ygHAb5eYBTkQwU8XXe_j7Q
+
+<> 2022-08-30T005812.200.json
+
+###
+
+POST http://localhost:8090/api/auth/like/post/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJybGR1cyIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTc5MDMyNX0.VEDl3NGuKzh0g9bVwBkK2Mb8aun-pNGQ7yuPIClf90M
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjIzOTMzMjV9.APlMl0LwwaIf7W-wU_ep-ygHAb5eYBTkQwU8XXe_j7Q
+
+<> 2022-08-30T005752.200.json
+
+###
+
+POST http://localhost:8090/api/auth/like/post/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJybGR1cyIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTc4MzU3N30.B8ZMfJl55Bz3eaa9eXby8xxcYdfXWiOJLc24ryCIgks
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjIzODY1Nzd9.ST3RiVQa1eyVo3kfLz5HWolijRtaAhiWeUZvg9rE5oo
+
+<> 2022-08-30T005741.401.json
+
+###
+
+POST http://localhost:8090/api/auth/like/post/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJybGR1cyIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTc5MDMyNX0.VEDl3NGuKzh0g9bVwBkK2Mb8aun-pNGQ7yuPIClf90M
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjIzOTMzMjV9.APlMl0LwwaIf7W-wU_ep-ygHAb5eYBTkQwU8XXe_j7Q
+
+<> 2022-08-30T005725.200.json
+
+###
+
+POST http://localhost:8090/api/auth/like/post/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJybGR1cyIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTc4MzU3N30.B8ZMfJl55Bz3eaa9eXby8xxcYdfXWiOJLc24ryCIgks
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjIzODY1Nzd9.ST3RiVQa1eyVo3kfLz5HWolijRtaAhiWeUZvg9rE5oo
+
+<> 2022-08-30T005704.401.json
+
+###
+
+POST http://localhost:8090/api/auth/like/post/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJybGR1cyIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTc5MDMyNX0.VEDl3NGuKzh0g9bVwBkK2Mb8aun-pNGQ7yuPIClf90M
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjIzOTMzMjV9.APlMl0LwwaIf7W-wU_ep-ygHAb5eYBTkQwU8XXe_j7Q
+
+<> 2022-08-30T005553.200.json
+
+###
+
+POST http://localhost:8090/api/auth/comment
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJybGR1cyIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTc5MDMyNX0.VEDl3NGuKzh0g9bVwBkK2Mb8aun-pNGQ7yuPIClf90M
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjIzOTMzMjV9.APlMl0LwwaIf7W-wU_ep-ygHAb5eYBTkQwU8XXe_j7Q
+Content-Type: application/json
+
+{
+  "postId": "1",
+  "content": "ㅋㅋㅋㅋㅋ"
+}
+
+<> 2022-08-30T005545.200.json
+
+###
+
+POST http://localhost:8090/api/member/login
+Content-Type: application/json
+
+{
+  "nickname":"rldus",
+  "password":"12345"
+}
+
+<> 2022-08-30T005525.200.json
+
+###
+
+POST http://localhost:8090/api/member/signup
+Content-Type: application/json
+
+{
+  "nickname":"rldus",
+  "password":"12345",
+  "passwordConfirm":"12345"
+}
+
+<> 2022-08-30T005522.200.json
+
+###
+
+POST http://localhost:8090/api/auth/member/logout
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE3OTAyODN9.KoB6N44KPU3q12qNwJaq2geUVltfhyD2j6kiqMQdCnE
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjIzOTMyODN9._gRyL-kbaUGGpOk8B7UvNVOtVCw6yvvLUm6UA6nGSW4
+
+<> 2022-08-30T005516.200.json
+
+###
+
+POST http://localhost:8090/api/auth/member/logout
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE3OTAyODN9.KoB6N44KPU3q12qNwJaq2geUVltfhyD2j6kiqMQdCnE
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjIzOTMyODN9._gRyL-kbaUGGpOk8B7UvNVOtVCw6yvvLUm6UA6nGSW4
+
+<> 2022-08-30T005505.200.json
+
+###
+
+POST http://localhost:8090/api/auth/post
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE3OTAyODN9.KoB6N44KPU3q12qNwJaq2geUVltfhyD2j6kiqMQdCnE
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjIzOTMyODN9._gRyL-kbaUGGpOk8B7UvNVOtVCw6yvvLUm6UA6nGSW4
+Content-Type: application/json
+
+{
+  "title": "빵 만들기2",
+  "content": "사실 만들 줄 모름2"
+}
+
+<> 2022-08-30T005459.200.json
+
+###
+
+POST http://localhost:8090/api/auth/post
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE3OTAyODN9.KoB6N44KPU3q12qNwJaq2geUVltfhyD2j6kiqMQdCnE
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjIzOTMyODN9._gRyL-kbaUGGpOk8B7UvNVOtVCw6yvvLUm6UA6nGSW4
+Content-Type: application/json
+
+{
+  "title": "빵 만들기",
+  "content": "사실 만들 줄 모름"
+}
+
+<> 2022-08-30T005453.200.json
+
+###
+
+POST http://localhost:8090/api/member/login
+Content-Type: application/json
+
+{
+  "nickname":"kiyeon",
+  "password":"1234"
+}
+
+<> 2022-08-30T005443.200.json
+
+###
+
+POST http://localhost:8090/api/member/signup
+Content-Type: application/json
+
+{
+  "nickname":"kiyeon",
+  "password":"1234",
+  "passwordConfirm":"1234"
+}
+
+<> 2022-08-30T005440.200.json
+
+###
+
+POST http://localhost:8090/api/member/signup
+Content-Type: application/json
+
+{
+  "nickname":"kiyeon",
+  "password":"1234",
+  "passwordConfirm":"1234"
+}
+
+<> 2022-08-30T005137.500.json
+
+###
+

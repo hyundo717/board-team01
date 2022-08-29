@@ -1,0 +1,24 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": 1,
+      "title": "빵 만들기",
+      "content": "사실 만들 줄 모름",
+      "author": "kiyeon",
+      "commentResponseDtoList": null,
+      "createdAt": "2022-08-30T01:48:48.095265",
+      "modifiedAt": "2022-08-30T01:50:45.202814"
+    },
+    {
+      "id": 2,
+      "title": "빵 만들기2",
+      "content": "사실 만들 줄 모름2",
+      "author": "kiyeon",
+      "commentResponseDtoList": null,
+      "createdAt": "2022-08-30T01:48:53.735526",
+      "modifiedAt": "2022-08-30T01:51:22.140152"
+    }
+  ],
+  "error": null
+}
