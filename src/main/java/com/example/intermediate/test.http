@@ -139,6 +139,36 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5dXl1eSIsImF1dGgiOiJST0xFX
 Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjIzOTY2MjR9.C0u7UXIRA-RH1LAB53vyG9sPiBsMyIvBDXtysuveFDY
 
 ##########
+// id 2번 post에 댓글
+POST http://localhost:8090/api/auth/comment
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJybGR1cyIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTgyNzY5Nn0.qDsskqFLN5C7h5b9CmiqXnjG3peRxUG_b4QD8zGty-k
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI0MzA2OTZ9.nO7dGl1RK7NfzgKMGSGfKtJnJlHFC8e07zN_4zEUwBw
+Content-Type: application/json
+
+{
+  "postId": "2",
+  "content": "진짜 만들 줄 모르시나요"
+}
+
+#########
+// yuyuy회원(id3) 1번 comment에 좋아요
+POST http://localhost:8090/api/auth/like/comment/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5dXl1eSIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTc5MzYyNH0.fTIRrYKziaS8mSAO6EgqyTS9VxJkGAxYlp9dgWtVnf0
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjIzOTY2MjR9.C0u7UXIRA-RH1LAB53vyG9sPiBsMyIvBDXtysuveFDY
+
+#########
+// yuyuy회원(id3) 2번 comment에 좋아요
+POST http://localhost:8090/api/auth/like/comment/2
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5dXl1eSIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTc5MzYyNH0.fTIRrYKziaS8mSAO6EgqyTS9VxJkGAxYlp9dgWtVnf0
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjIzOTY2MjR9.C0u7UXIRA-RH1LAB53vyG9sPiBsMyIvBDXtysuveFDY
+
+#########
+// yuyuy회원(id3) 2번 comment에 좋아요 취소
+POST http://localhost:8090/api/auth/like/comment/2
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5dXl1eSIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTc5MzYyNH0.fTIRrYKziaS8mSAO6EgqyTS9VxJkGAxYlp9dgWtVnf0
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjIzOTY2MjR9.C0u7UXIRA-RH1LAB53vyG9sPiBsMyIvBDXtysuveFDY
+
+##########
 // yuyuy회원(id3) mypage
 GET http://localhost:8090/api/auth/member/mypage
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJybGR1cyIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTc5NTAxNH0.bFE8SixumujiXZ_TcEjSwAblXXMWB0LxeV0gHwff7sc

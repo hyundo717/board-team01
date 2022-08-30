@@ -1,3 +1,16 @@
+POST http://localhost:8090/api/member/signup
+Content-Type: application/json
+
+{
+  "nickname":"kiyeon",
+  "password":"1234",
+  "passwordConfirm":"1234"
+}
+
+<> 2022-08-30T140106.200.json
+
+###
+
 POST http://localhost:8090/api/auth/post
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE4Mjc2Njl9.pJrOe990zlhEIJmXyxSHwstzZLmJxpwJc6t_ShwVVGk
 Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI0MzA2Njl9.84wRkNpfkAs4mNJdXbM7HGZVV9cH7gghL2MqYQhlzJg

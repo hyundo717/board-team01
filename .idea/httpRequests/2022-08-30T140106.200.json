@@ -1,0 +1,8 @@
+{
+  "success": false,
+  "data": null,
+  "error": {
+    "code": "DUPLICATED_NICKNAME",
+    "message": "중복된 닉네임 입니다."
+  }
+}

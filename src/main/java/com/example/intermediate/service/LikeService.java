@@ -1,10 +1,9 @@
 package com.example.intermediate.service;
 
 import com.example.intermediate.controller.response.ResponseDto;
-import com.example.intermediate.domain.LikePost;
-import com.example.intermediate.domain.Member;
-import com.example.intermediate.domain.Post;
+import com.example.intermediate.domain.*;
 import com.example.intermediate.jwt.TokenProvider;
+import com.example.intermediate.repository.CommentRepository;
 import com.example.intermediate.repository.LikeCoRepository;
 import com.example.intermediate.repository.LikePostRepository;
 import com.example.intermediate.repository.PostRepository;
@@ -22,6 +21,7 @@ public class LikeService {
     private final LikePostRepository likePostRepository;
     private final LikeCoRepository likeCoRepository;
     private final PostRepository postRepository;
+    private final CommentRepository commentRepository;
 
     @Transactional
     public ResponseDto<?> likePost(Long id, HttpServletRequest request) {
@@ -40,12 +40,13 @@ public class LikeService {
             return ResponseDto.fail("INVALID_TOKEN", "Token이 유효하지 않습니다.");
         }
 
-        LikePost likePost = likePostRepository.findLikePostByMemberAndPostId(member,id).orElse(null);
         Post post = postRepository.findById(id).orElse(null);
 
         if (post == null){
             return ResponseDto.fail("NOT_FOUND", "존재하지 않는 게시글 id 입니다.");
         }
+
+        LikePost likePost = likePostRepository.findLikePostByMemberAndPostId(member,id).orElse(null);
 
         if (likePost == null){
             LikePost saveLikePost = LikePost.builder()
@@ -54,11 +55,11 @@ public class LikeService {
                     .build();
             likePostRepository.save(saveLikePost);
             post.update(1);
-            return ResponseDto.success("like success");
+            return ResponseDto.success("post like success");
         } else {
             likePostRepository.delete(likePost);
             post.update(-1);
-            return ResponseDto.success("like delete success");
+            return ResponseDto.success("successfully deleted post like");
         }
 
     }
@@ -80,27 +81,28 @@ public class LikeService {
             return ResponseDto.fail("INVALID_TOKEN", "Token이 유효하지 않습니다.");
         }
 
-        LikePost likePost = likeCoRepository.findLikeCoByMemberAndCommentId(member,id).orElse(null);
-        Post post = postRepository.findById(id).orElse(null);
 
-        if (post == null){
-            return ResponseDto.fail("NOT_FOUND", "존재하지 않는 게시글 id 입니다.");
+        Comment comment =  commentRepository.findById(id).orElse(null);
+
+        if (comment == null){
+            return ResponseDto.fail("NOT_FOUND", "존재하지 않는 댓글 id 입니다.");
         }
 
-        if (likePost == null){
-            LikePost saveLikePost = LikePost.builder()
+        LikeCo likeComment = likeCoRepository.findLikeCoByMemberAndCommentId(member,id).orElse(null);
+
+        if (likeComment == null){
+            LikeCo saveLikeComment = LikeCo.builder()
                     .member(member)
-                    .postId(id)
+                    .commentId(id)
                     .build();
-            likePostRepository.save(saveLikePost);
-            post.update(1);
-            return ResponseDto.success("like success");
+            likeCoRepository.save(saveLikeComment);
+            comment.update(1);
+            return ResponseDto.success("comment like success");
         } else {
-            likePostRepository.delete(likePost);
-            post.update(-1);
-            return ResponseDto.success("like delete success");
+            likeCoRepository.delete(likeComment);
+            comment.update(-1);
+            return ResponseDto.success("successfully deleted comment like");
         }
-
     }
 
     @Transactional
