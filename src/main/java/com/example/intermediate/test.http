@@ -21,8 +21,8 @@ Content-Type: application/json
 #############
 // 글쓰기
 POST http://localhost:8080/api/auth/post
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE4NDI0MzV9.YZYGXmTbrDaGQ4gY4c64VqCiNS9UgYQUdSAKw6QUjYg
-Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI0NDU0MzV9.18YsFZroR-ROEP9b0uTIhug_CtNf3w72d8oveVSkEok
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE4NDcyNDB9.bGLK4N93oPtxZNRD-cEIh9BXWgtUEGTMsZp1W--_EB4
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI0NTAyNDB9.9mIq1urj393gRtahdqKRCMDIJrNkM2MEgnrlRpELS-Q
 Content-Type: application/json
 
 {
@@ -33,8 +33,8 @@ Content-Type: application/json
 #############
 // 글쓰기
 POST http://localhost:8080/api/auth/post
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE4NDI0MzV9.YZYGXmTbrDaGQ4gY4c64VqCiNS9UgYQUdSAKw6QUjYg
-Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI0NDU0MzV9.18YsFZroR-ROEP9b0uTIhug_CtNf3w72d8oveVSkEok
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE4NDcyNDB9.bGLK4N93oPtxZNRD-cEIh9BXWgtUEGTMsZp1W--_EB4
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI0NTAyNDB9.9mIq1urj393gRtahdqKRCMDIJrNkM2MEgnrlRpELS-Q
 Content-Type: application/json
 
 {
@@ -49,8 +49,8 @@ GET http://localhost:8080/api/post
 ############
 //로그아웃
 POST http://localhost:8080/api/auth/member/logout
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE4NDI0MzV9.YZYGXmTbrDaGQ4gY4c64VqCiNS9UgYQUdSAKw6QUjYg
-Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI0NDU0MzV9.18YsFZroR-ROEP9b0uTIhug_CtNf3w72d8oveVSkEok
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE4NDcyNDB9.bGLK4N93oPtxZNRD-cEIh9BXWgtUEGTMsZp1W--_EB4
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI0NTAyNDB9.9mIq1urj393gRtahdqKRCMDIJrNkM2MEgnrlRpELS-Q
 
 ############
 // 회원가입
@@ -76,8 +76,8 @@ Content-Type: application/json
 ##########
 // id 1번 post에 댓글
 POST http://localhost:8080/api/auth/comment
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJybGR1cyIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTg0MjQ3Nn0.eGIse-4orc1vlR5AxghhkfW3uC0VRk3WOWOdDFzl6BA
-Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI0NDU0NzZ9.rxJg_86Hwp-2ghAm10kNkFee6J74iUctJDHFT7cynms
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJybGR1cyIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTg0NzI3N30.sqWKgKLgcC8UzRcnh4Z5JeQ7SOBqmF4KmdbHNn9jZH0
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI0NTAyNzd9.elz_AQQGExaCMkb5NOQasaMWmEyKOenlwb0g7dDvngA
 Content-Type: application/json
 
 {
@@ -88,6 +88,10 @@ Content-Type: application/json
 ##########
 // post 전체 목록 조회
 GET http://localhost:8080/api/post
+
+##########
+// post id 1 조회
+GET http://localhost:8080/api/post/1
 
 #########
 // rldus회원(id2) 1번 post에 좋아요
