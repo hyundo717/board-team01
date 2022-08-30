@@ -13,8 +13,12 @@ public class LikeController {
     private final LikeService likeService;
 
     @RequestMapping(value = "/api/auth/like/post/{id}", method = RequestMethod.POST)
-    public ResponseDto<?> likePost(@PathVariable Long id,
-                                     HttpServletRequest request) {
+    public ResponseDto<?> likePost(@PathVariable Long id, HttpServletRequest request) {
         return likeService.likePost(id, request);
+    }
+
+    @RequestMapping(value = "/api/auth/like/comment/{id}", method = RequestMethod.POST)
+    public ResponseDto<?> likeComment(@PathVariable Long id, HttpServletRequest request) {
+        return likeService.likeComment(id, request);
     }
 }

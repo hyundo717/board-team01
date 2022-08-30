@@ -1,0 +1,217 @@
+POST http://localhost:8090/api/auth/post
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE4Mjc2Njl9.pJrOe990zlhEIJmXyxSHwstzZLmJxpwJc6t_ShwVVGk
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI0MzA2Njl9.84wRkNpfkAs4mNJdXbM7HGZVV9cH7gghL2MqYQhlzJg
+Content-Type: application/json
+
+{
+  "title": "빵 만들기2",
+  "content": "사실 만들 줄 모름2"
+}
+
+<> 2022-08-30T112000.200.json
+
+###
+
+POST http://localhost:8090/api/auth/member/logout
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE4Mjc2Njl9.pJrOe990zlhEIJmXyxSHwstzZLmJxpwJc6t_ShwVVGk
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI0MzA2Njl9.84wRkNpfkAs4mNJdXbM7HGZVV9cH7gghL2MqYQhlzJg
+
+<> 2022-08-30T111957.200.json
+
+###
+
+POST http://localhost:8090/api/auth/post
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE4Mjc2Njl9.pJrOe990zlhEIJmXyxSHwstzZLmJxpwJc6t_ShwVVGk
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI0MzA2Njl9.84wRkNpfkAs4mNJdXbM7HGZVV9cH7gghL2MqYQhlzJg
+Content-Type: application/json
+
+{
+  "title": "빵 만들기2",
+  "content": "사실 만들 줄 모름2"
+}
+
+<> 2022-08-30T111950.200.json
+
+###
+
+POST http://localhost:8090/api/auth/post
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE4Mjc2Njl9.pJrOe990zlhEIJmXyxSHwstzZLmJxpwJc6t_ShwVVGk
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI0MzA2Njl9.84wRkNpfkAs4mNJdXbM7HGZVV9cH7gghL2MqYQhlzJg
+Content-Type: application/json
+
+{
+  "title": "빵 만들기",
+  "content": "사실 만들 줄 모름"
+}
+
+<> 2022-08-30T111946.200.json
+
+###
+
+POST http://localhost:8090/api/auth/like/post/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJybGR1cyIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTgyNzY5Nn0.qDsskqFLN5C7h5b9CmiqXnjG3peRxUG_b4QD8zGty-k
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI0MzA2OTZ9.nO7dGl1RK7NfzgKMGSGfKtJnJlHFC8e07zN_4zEUwBw
+
+<> 2022-08-30T111936.200.json
+
+###
+
+POST http://localhost:8090/api/auth/like/post/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJybGR1cyIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTgyNzY5Nn0.qDsskqFLN5C7h5b9CmiqXnjG3peRxUG_b4QD8zGty-k
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI0MzA2OTZ9.nO7dGl1RK7NfzgKMGSGfKtJnJlHFC8e07zN_4zEUwBw
+
+<> 2022-08-30T111914.200.json
+
+###
+
+POST http://localhost:8090/api/auth/member/logout
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJybGR1cyIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTgyNzY5Nn0.qDsskqFLN5C7h5b9CmiqXnjG3peRxUG_b4QD8zGty-k
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI0MzA2OTZ9.nO7dGl1RK7NfzgKMGSGfKtJnJlHFC8e07zN_4zEUwBw
+
+<> 2022-08-30T111911.200.json
+
+###
+
+POST http://localhost:8090/api/auth/like/post/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJybGR1cyIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTgyNzY5Nn0.qDsskqFLN5C7h5b9CmiqXnjG3peRxUG_b4QD8zGty-k
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI0MzA2OTZ9.nO7dGl1RK7NfzgKMGSGfKtJnJlHFC8e07zN_4zEUwBw
+
+<> 2022-08-30T111900.200.json
+
+###
+
+POST http://localhost:8090/api/auth/member/logout
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJybGR1cyIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTgyNzY5Nn0.qDsskqFLN5C7h5b9CmiqXnjG3peRxUG_b4QD8zGty-k
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI0MzA2OTZ9.nO7dGl1RK7NfzgKMGSGfKtJnJlHFC8e07zN_4zEUwBw
+
+<> 2022-08-30T111854.200.json
+
+###
+
+POST http://localhost:8090/api/auth/like/post/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJybGR1cyIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTgyNzY5Nn0.qDsskqFLN5C7h5b9CmiqXnjG3peRxUG_b4QD8zGty-k
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI0MzA2OTZ9.nO7dGl1RK7NfzgKMGSGfKtJnJlHFC8e07zN_4zEUwBw
+
+<> 2022-08-30T111848.200.json
+
+###
+
+POST http://localhost:8090/api/auth/like/post/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJybGR1cyIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTgyNzY5Nn0.qDsskqFLN5C7h5b9CmiqXnjG3peRxUG_b4QD8zGty-k
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI0MzA2OTZ9.nO7dGl1RK7NfzgKMGSGfKtJnJlHFC8e07zN_4zEUwBw
+
+<> 2022-08-30T111838.200.json
+
+###
+
+POST http://localhost:8090/api/auth/comment
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJybGR1cyIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTgyNzY5Nn0.qDsskqFLN5C7h5b9CmiqXnjG3peRxUG_b4QD8zGty-k
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI0MzA2OTZ9.nO7dGl1RK7NfzgKMGSGfKtJnJlHFC8e07zN_4zEUwBw
+Content-Type: application/json
+
+{
+  "postId": "1",
+  "content": "ㅋㅋㅋㅋㅋ"
+}
+
+<> 2022-08-30T111833.200.json
+
+###
+
+POST http://localhost:8090/api/member/login
+Content-Type: application/json
+
+{
+  "nickname":"rldus",
+  "password":"12345"
+}
+
+<> 2022-08-30T111817.200.json
+
+###
+
+POST http://localhost:8090/api/member/signup
+Content-Type: application/json
+
+{
+  "nickname":"rldus",
+  "password":"12345",
+  "passwordConfirm":"12345"
+}
+
+<> 2022-08-30T111814.200.json
+
+###
+
+POST http://localhost:8090/api/auth/member/logout
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE4Mjc2Njl9.pJrOe990zlhEIJmXyxSHwstzZLmJxpwJc6t_ShwVVGk
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI0MzA2Njl9.84wRkNpfkAs4mNJdXbM7HGZVV9cH7gghL2MqYQhlzJg
+
+<> 2022-08-30T111810.200.json
+
+###
+
+POST http://localhost:8090/api/auth/post
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE4Mjc2Njl9.pJrOe990zlhEIJmXyxSHwstzZLmJxpwJc6t_ShwVVGk
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI0MzA2Njl9.84wRkNpfkAs4mNJdXbM7HGZVV9cH7gghL2MqYQhlzJg
+Content-Type: application/json
+
+{
+  "title": "빵 만들기2",
+  "content": "사실 만들 줄 모름2"
+}
+
+<> 2022-08-30T111806.200.json
+
+###
+
+POST http://localhost:8090/api/auth/post
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE4Mjc2Njl9.pJrOe990zlhEIJmXyxSHwstzZLmJxpwJc6t_ShwVVGk
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI0MzA2Njl9.84wRkNpfkAs4mNJdXbM7HGZVV9cH7gghL2MqYQhlzJg
+Content-Type: application/json
+
+{
+  "title": "빵 만들기",
+  "content": "사실 만들 줄 모름"
+}
+
+<> 2022-08-30T111800.200.json
+
+###
+
+POST http://localhost:8090/api/member/login
+Content-Type: application/json
+
+{
+  "nickname":"kiyeon",
+  "password":"1234"
+}
+
+<> 2022-08-30T111749.200.json
+
+###
+
+POST http://localhost:8090/api/member/signup
+Content-Type: application/json
+
+{
+  "nickname":"kiyeon",
+  "password":"1234",
+  "passwordConfirm":"1234"
+}
+
+<> 2022-08-30T111747.200.json
+
+###
+
+POST http://localhost:8090/api/member/signup
+Content-Type: application/json
+
+{
+  "nickname":"kiyeon",
+  "password":"1234",
+  "passwordConfirm":"1234"
+}
+
+###
+
