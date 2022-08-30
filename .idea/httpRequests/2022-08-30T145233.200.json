@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "data": {
+    "id": 1,
+    "title": "빵 만들기",
+    "content": "사실 만들 줄 모름",
+    "author": "kiyeon",
+    "commentResponseDtoList": null,
+    "createdAt": "2022-08-30T14:52:33.2008521",
+    "modifiedAt": "2022-08-30T14:52:33.2008521"
+  },
+  "error": null
+}

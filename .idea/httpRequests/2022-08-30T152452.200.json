@@ -1,0 +1,24 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": 2,
+      "title": "빵 만들기2",
+      "author": "kiyeon",
+      "likesNum": 0,
+      "commentsNum": 0,
+      "createdAt": "2022-08-30T15:24:13.876688",
+      "modifiedAt": "2022-08-30T15:24:13.876688"
+    },
+    {
+      "id": 1,
+      "title": "빵 만들기",
+      "author": "kiyeon",
+      "likesNum": 0,
+      "commentsNum": 1,
+      "createdAt": "2022-08-30T15:24:07.719938",
+      "modifiedAt": "2022-08-30T15:24:07.719938"
+    }
+  ],
+  "error": null
+}
