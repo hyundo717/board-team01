@@ -5,7 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52c67505-a82e-47d1-b822-327aecbec4d0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/intermediate/controller/LikeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/intermediate/controller/LikeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/intermediate/domain/Recomment.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/intermediate/domain/Recomment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/intermediate/service/LikeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/intermediate/service/LikeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logintest.http" beforeDir="false" afterPath="$PROJECT_DIR$/src/logintest.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermediate/domain/Recomment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/intermediate/domain/Recomment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermediate/service/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/intermediate/service/PostService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermediate/test.http" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/intermediate/test.http" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,19 +90,19 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../board" />
   </component>
   <component name="RunManager" selected="Spring Boot.IntermediateApplication">
-    <configuration name="logintest | 대댓글 수정 확인##########################" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/logintest.http" index="13" requestIdentifier="대댓글 수정 확인##########################" runType="Run single request">
+    <configuration name="logintest | 멤버1 게시글 작성#############################2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/logintest.http" index="6" requestIdentifier="멤버1 게시글 작성#############################2" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="logintest | 대댓글 달기1##################################" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/logintest.http" index="10" requestIdentifier="대댓글 달기1##################################" runType="Run single request">
+    <configuration name="logintest | ##대댓글 수정 확인##########################" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/logintest.http" index="14" requestIdentifier="##대댓글 수정 확인##########################" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="logintest | 대댓글 2번 삭제 확인##########################" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/logintest.http" index="14" requestIdentifier="대댓글 2번 삭제 확인##########################" runType="Run single request">
+    <configuration name="logintest | ## 회원1 post2에 좋아요 취소" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/logintest.http" index="17" requestIdentifier="## 회원1 post2에 좋아요 취소" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="logintest | 대댓글 달기2##################################" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/logintest.http" index="11" requestIdentifier="대댓글 달기2##################################" runType="Run single request">
+    <configuration name="logintest | ## 회원1 post2에 좋아요" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/logintest.http" index="16" requestIdentifier="## 회원1 post2에 좋아요" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="logintest | 대댓글 확인##################################" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/logintest.http" index="12" requestIdentifier="대댓글 확인##################################" runType="Run single request">
+    <configuration name="logintest | #### 회원2 post2에 좋아요" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/logintest.http" index="15" requestIdentifier="#### 회원2 post2에 좋아요" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="IntermediateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -100,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.logintest | 대댓글 2번 삭제 확인##########################" />
-        <item itemvalue="HTTP Request.logintest | 대댓글 수정 확인##########################" />
-        <item itemvalue="HTTP Request.logintest | 대댓글 확인##################################" />
-        <item itemvalue="HTTP Request.logintest | 대댓글 달기2##################################" />
-        <item itemvalue="HTTP Request.logintest | 대댓글 달기1##################################" />
+        <item itemvalue="HTTP Request.logintest | ## 회원1 post2에 좋아요 취소" />
+        <item itemvalue="HTTP Request.logintest | ## 회원1 post2에 좋아요" />
+        <item itemvalue="HTTP Request.logintest | #### 회원2 post2에 좋아요" />
+        <item itemvalue="HTTP Request.logintest | ##대댓글 수정 확인##########################" />
+        <item itemvalue="HTTP Request.logintest | 멤버1 게시글 작성#############################2" />
       </list>
     </recent_temporary>
   </component>
@@ -119,6 +133,7 @@
       <workItem from="1661767084166" duration="15899000" />
       <workItem from="1661824093448" duration="282000" />
       <workItem from="1661833944113" duration="1762000" />
+      <workItem from="1661863524555" duration="8504000" />
     </task>
     <servers />
   </component>

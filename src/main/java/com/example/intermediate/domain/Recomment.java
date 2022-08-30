@@ -33,7 +33,7 @@ public class Recomment extends Timestamped{
     @Column(nullable = false)
     private String content;
 
-    @Column(nullable = false)
+    @Column
     private int likesNum;
 
     public void update(RecommentRequestDto recommentRequestDto) {

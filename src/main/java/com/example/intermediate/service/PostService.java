@@ -5,6 +5,7 @@ import com.example.intermediate.domain.Comment;
 import com.example.intermediate.domain.Member;
 import com.example.intermediate.domain.Post;
 import com.example.intermediate.controller.request.PostRequestDto;
+import com.example.intermediate.domain.Recomment;
 import com.example.intermediate.jwt.TokenProvider;
 import com.example.intermediate.repository.CommentRepository;
 import com.example.intermediate.repository.PostRepository;
@@ -12,6 +13,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import javax.servlet.http.HttpServletRequest;
+
+import com.example.intermediate.repository.RecommentRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -22,6 +25,7 @@ public class PostService {
 
   private final PostRepository postRepository;
   private final CommentRepository commentRepository;
+  private final RecommentRepository recommentRepository;
 
   private final TokenProvider tokenProvider;
 
@@ -71,6 +75,8 @@ public class PostService {
     List<CommentResponseDto> commentResponseDtoList = new ArrayList<>();
 
     for (Comment comment : commentList) {
+//      List<Recomment>  recommentList = recommentRepository.findAllByComment(comment);
+
       commentResponseDtoList.add(
           CommentResponseDto.builder()
               .id(comment.getId())

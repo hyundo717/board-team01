@@ -21,8 +21,8 @@ Content-Type: application/json
 #############
 // 글쓰기
 POST http://localhost:8080/api/auth/post
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE4NDcyNDB9.bGLK4N93oPtxZNRD-cEIh9BXWgtUEGTMsZp1W--_EB4
-Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI0NTAyNDB9.9mIq1urj393gRtahdqKRCMDIJrNkM2MEgnrlRpELS-Q
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE4NzQzMTV9._BST1vD0ULhgmndwu3JQM2ZG3bBvDjZv_D77FGa3cK4
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI0NzczMTV9.VfVm5bbjDwAviWhV95_I0S08J7dgdR4u4Bw6h7rYlDw
 Content-Type: application/json
 
 {
@@ -33,8 +33,8 @@ Content-Type: application/json
 #############
 // 글쓰기
 POST http://localhost:8080/api/auth/post
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE4NDcyNDB9.bGLK4N93oPtxZNRD-cEIh9BXWgtUEGTMsZp1W--_EB4
-Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI0NTAyNDB9.9mIq1urj393gRtahdqKRCMDIJrNkM2MEgnrlRpELS-Q
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE4NzQzMTV9._BST1vD0ULhgmndwu3JQM2ZG3bBvDjZv_D77FGa3cK4
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI0NzczMTV9.VfVm5bbjDwAviWhV95_I0S08J7dgdR4u4Bw6h7rYlDw
 Content-Type: application/json
 
 {
