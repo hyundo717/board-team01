@@ -1,0 +1,133 @@
+###회원가입1############
+POST http://localhost:8080/api/member/signup
+Content-Type: application/json
+
+{
+  "nickname":"kiyeon",
+  "password":"1234",
+  "passwordConfirm":"1234"
+}
+
+###회원가입2############
+POST http://localhost:8080/api/member/signup
+Content-Type: application/json
+
+{
+  "nickname":"seonghee",
+  "password":"1234",
+  "passwordConfirm":"1234"
+}
+
+
+###로그인1##################
+POST http://localhost:8080/api/member/login
+Content-Type: application/json
+
+{
+  "nickname":"kiyeon",
+  "password":"1234"
+}
+
+###로그인2##################
+POST http://localhost:8080/api/member/login
+Content-Type: application/json
+
+{
+  "nickname":"seonghee",
+  "password":"1234"
+}
+
+###멤버1 게시글 작성##############
+
+POST http://localhost:8080/api/auth/post
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE4NTAyMjN9.o-IZP_UIVY_74WuQ6xPsJSC-SyZBCrsNKDBD8GNIc68
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI0NTMyMjN9.hBbpN1Ki4NCSc_ZMGlIVWzu0gjrQZSFsK7-gJkawU34
+Content-Type: application/json
+
+{
+  "title":"게시글 test1",
+  "content":"게시글 내용 1"
+}
+
+###게시글 확인###########
+GET http://localhost:8080/api/post
+
+
+
+###멤버1 댓글 달기##############
+
+POST http://localhost:8080/api/auth/comment
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE4NTAyMjN9.o-IZP_UIVY_74WuQ6xPsJSC-SyZBCrsNKDBD8GNIc68
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI0NTMyMjN9.hBbpN1Ki4NCSc_ZMGlIVWzu0gjrQZSFsK7-gJkawU34
+Content-Type: application/json
+
+{
+  "postId":"1",
+  "content":"게시글 1의 댓글 1"
+
+}
+
+###댓글 확인##################
+GET http://localhost:8080/api/comment/1
+
+
+###회원 1의 자기 댓글 업데이트##############
+PUT http://localhost:8080/api/auth/comment/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE4NTAyMjN9.o-IZP_UIVY_74WuQ6xPsJSC-SyZBCrsNKDBD8GNIc68
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI0NTMyMjN9.hBbpN1Ki4NCSc_ZMGlIVWzu0gjrQZSFsK7-gJkawU34
+Content-Type: application/json
+
+{
+  "postId":"1",
+  "content":"게시글 1의 댓글 1의 본인 수정버전"
+}
+
+
+
+
+###대댓글 달기1#################
+POST http://localhost:8080/api/auth/recomment
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzZW9uZ2hlZSIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTg1MTMwOX0.DkKiwz9O085RIPYS6Kf5UGayOR1F8Uff3A8PfyUCRwU
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI0NTQzMDl9.pmp5Gyq1tLDARe-hJCJ-JIfQAouceod0zZDImthDLkE
+Content-Type: application/json
+
+{
+  "postId":"1",
+  "commentId":"1",
+  "content":"게시글 1의 댓글 1의 회원 2의 대댓글 1"
+}
+
+###대댓글 달기2#################
+POST http://localhost:8080/api/auth/recomment
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzZW9uZ2hlZSIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTg1MTMwOX0.DkKiwz9O085RIPYS6Kf5UGayOR1F8Uff3A8PfyUCRwU
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI0NTQzMDl9.pmp5Gyq1tLDARe-hJCJ-JIfQAouceod0zZDImthDLkE
+Content-Type: application/json
+
+{
+  "postId":"1",
+  "commentId":"1",
+  "content":"게시글 1의 댓글 1의 대댓글 2"
+}
+
+###댓글1의 대댓글 확인#################
+GET http://localhost:8080/api/recomment/1
+
+
+###대댓글 수정 확인#############
+PUT http://localhost:8080/api/auth/recomment/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzZW9uZ2hlZSIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTg1MTMwOX0.DkKiwz9O085RIPYS6Kf5UGayOR1F8Uff3A8PfyUCRwU
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI0NTQzMDl9.pmp5Gyq1tLDARe-hJCJ-JIfQAouceod0zZDImthDLkE
+Content-Type: application/json
+
+{
+
+  "postId":"1",
+  "commentId":"2",
+  "content":"게시글 1의 댓글 1의 대댓글 1의 수정"
+
+}
+
+###대댓글 2번 삭제 확인#############
+DELETE http://localhost:8080/api/auth/recomment/2
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE4NTAyMjN9.o-IZP_UIVY_74WuQ6xPsJSC-SyZBCrsNKDBD8GNIc68
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI0NTMyMjN9.hBbpN1Ki4NCSc_ZMGlIVWzu0gjrQZSFsK7-gJkawU34

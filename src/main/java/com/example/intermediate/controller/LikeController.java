@@ -21,4 +21,9 @@ public class LikeController {
     public ResponseDto<?> likeComment(@PathVariable Long id, HttpServletRequest request) {
         return likeService.likeComment(id, request);
     }
+
+    @RequestMapping(value = "/api/auth/like/recomment/{id}", method = RequestMethod.POST)
+    public ResponseDto<?> likeRecomment(@PathVariable Long id, HttpServletRequest request) {
+        return likeService.likeRecomment(id, request);
+    }
 }
