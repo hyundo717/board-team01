@@ -37,6 +37,9 @@ public class Post extends Timestamped {
   @Column
   private int likesNum;
 
+  @Column
+  private String imgUrl;
+
   @OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL, orphanRemoval = true)
   private List<Comment> comments;
 

@@ -24,6 +24,7 @@ public class ListResponseProvider {
                                 .id(post.getId())
                                 .title(post.getTitle())
                                 .author(post.getMember().getNickname())
+                                .imgUrl(post.getImgUrl())
                                 .likesNum(post.getLikesNum())
                                 .commentsNum(comment.size())
                                 .createdAt(post.getCreatedAt())
