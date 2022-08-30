@@ -1,6 +1,6 @@
 package com.example.intermediate.domain;
 
-import com.example.intermediate.controller.request.PostRequestDto;
+import com.example.intermediate.controller.request.PostWriteDto;
 import java.util.List;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
@@ -47,14 +47,16 @@ public class Post extends Timestamped {
   @ManyToOne(fetch = FetchType.LAZY)
   private Member member;
 
-  public void update(PostRequestDto postRequestDto) {
-    this.title = postRequestDto.getTitle();
-    this.content = postRequestDto.getContent();
+  public void update(PostWriteDto postWriteDto) {
+    this.title = postWriteDto.getTitle();
+    this.content = postWriteDto.getContent();
   }
 
   public void update(int value){
     this.likesNum += value;
   }
+
+//  public void update(String imgUrl){this.imgUrl = imgUrl;}
 
   public boolean validateMember(Member member) {
     return !this.member.equals(member);
