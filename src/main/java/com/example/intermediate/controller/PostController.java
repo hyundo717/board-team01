@@ -18,19 +18,20 @@ public class PostController {
   private final PostService postService;
 
 //  @RequestMapping(value = "/api/auth/post", method = RequestMethod.POST)
-//  public ResponseDto<?> createPost(@RequestBody PostRequestDto requestDto,
+//  public ResponseDto<?> createPost(@RequestBody PostWriteDto requestDto,
 //      HttpServletRequest request) {
 //    return postService.createPost(requestDto, request);
 //  }
 
   @RequestMapping(value = "/api/auth/post", method = RequestMethod.POST)
-  public ResponseDto<?> createPost(@ModelAttribute PostRequestDto postRequestDto, @RequestParam String fileSize,
+  public ResponseDto<?> createPost(@ModelAttribute PostRequestDto postRequestDto,
                                    HttpServletRequest request) throws IOException {
     MultipartFile multipartFile = postRequestDto.getMultipartFile();
     PostWriteDto postWriteDto = postRequestDto.getPostWriteDto();
+    System.out.println(postWriteDto.getTitle());
 
 
-    return postService.createPost(multipartFile, postWriteDto, fileSize, request);
+    return postService.createPost(multipartFile, postWriteDto, request);
   }
 
   @RequestMapping(value = "/api/post/{id}", method = RequestMethod.GET)

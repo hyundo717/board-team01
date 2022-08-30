@@ -80,7 +80,9 @@ public class PostService {
 //  }
 
   @Transactional
-  public ResponseDto<?> createPost(MultipartFile multipartFile, PostWriteDto requestDto, String fileSize, HttpServletRequest request) {
+  public ResponseDto<?> createPost(MultipartFile multipartFile, PostWriteDto requestDto, HttpServletRequest request) throws IOException {
+    System.out.println(requestDto.getTitle());
+    System.out.println("create post");
     if (null == request.getHeader("Refresh-Token")) {
       return ResponseDto.fail("MEMBER_NOT_FOUND",
               "로그인이 필요합니다.");
@@ -96,7 +98,7 @@ public class PostService {
       return ResponseDto.fail("INVALID_TOKEN", "Token이 유효하지 않습니다.");
     }
 
-    String imgUrl = getS3url(multipartFile,fileSize);
+    String imgUrl = getS3url(multipartFile);
     System.out.println(imgUrl);
 
     Post post = Post.builder()
@@ -226,21 +228,18 @@ public class PostService {
     return ResponseDto.success("delete success");
   }
 
-  public String getS3url(MultipartFile multipartFile, String fileSize){
-    InputStream inputStream = null;
+  public String getS3url(MultipartFile multipartFile) throws IOException{
 
-    try {
-      inputStream = multipartFile.getInputStream();
-    } catch (IOException e) {
-      e.printStackTrace();
-    }
+    InputStream inputStream = multipartFile.getInputStream();
+
 
     String originFileName = multipartFile.getOriginalFilename();
 
     String s3FileName = UUID.randomUUID() + "-" + originFileName;
 
     ObjectMetadata objMeta = new ObjectMetadata();
-    objMeta.setContentLength(Long.parseLong(fileSize));
+//    objMeta.setContentLength(Long.parseLong(String.valueOf(multipartFile.getSize())));
+    objMeta.setContentLength(multipartFile.getSize());
     s3Client.putObject(bucket, s3FileName, inputStream, objMeta);
 
     return s3Client.getUrl(bucket, dir + s3FileName).toString();

@@ -40,8 +40,8 @@ Content-Type: application/json
 ###멤버1 게시글 작성##############
 
 POST http://localhost:8080/api/auth/post
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE4NzU5MDh9.DtTOg10-dS_-jUZV28o6KY-HTVnPbFc-fEXtx9Yc0FA
-Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI0Nzg5MDh9.aC-jYjnGlZXwl_rVTOfQdk1YG8JwvaAcUrsP6pZByEQ
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE5MDAzMzd9.1D5Anih1ILuMTZpZBI1EraX3YWJ0vDg_G0_1iaSeUP0
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1MDMzMzd9.YBJ8rgzLjrL8vF2USAcCfjDQRcmnv33B3oanPbMp_Mo
 Content-Type: application/json
 
 {
