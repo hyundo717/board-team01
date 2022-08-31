@@ -40,8 +40,8 @@ Content-Type: application/json
 ###멤버1 게시글 작성##############
 
 POST http://localhost:8080/api/auth/post
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE5NTA3NjZ9.fYEnn50qzZ0EnxIkK5sZV__Ud_igE6_Qxd3GkAXxwb0
-Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1NTM3NjZ9.4sdv4zQjnQdHLc7O5whKJ3_g7HKYfKdczy2xI5xdfEw
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE5NjE5NDl9.75LY3pPAJKIc387m4zfppSkaYMnKOUCXc4mKkpR9RwY
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1NjQ5NDl9.tVvu3TU-oYDUYa3gaJnnyV8aRjCwsRsodIXJOvhPvhc
 Content-Type: application/json
 
 {
@@ -52,8 +52,8 @@ Content-Type: application/json
 ###멤버1 게시글 작성##############
 
 POST http://localhost:8080/api/auth/post
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE5NTA3NjZ9.fYEnn50qzZ0EnxIkK5sZV__Ud_igE6_Qxd3GkAXxwb0
-Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1NTM3NjZ9.4sdv4zQjnQdHLc7O5whKJ3_g7HKYfKdczy2xI5xdfEw
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE5NjE5NDl9.75LY3pPAJKIc387m4zfppSkaYMnKOUCXc4mKkpR9RwY
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1NjQ5NDl9.tVvu3TU-oYDUYa3gaJnnyV8aRjCwsRsodIXJOvhPvhc
 Content-Type: application/json
 
 {
@@ -64,8 +64,8 @@ Content-Type: application/json
 ###멤버2 게시글 작성##############
 
 POST http://localhost:8080/api/auth/post
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzZW9uZ2hlZSIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTk1MDg0MH0.DHY16_l9b_i-lRNQ0CtUJX4JgF0p7p79BvU_dJ6Bv1g
-Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1NTM4NDB9.ps7L1Bj8xj313kn4oi66JbPESY76wXHie45GSI1j9qc
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzZW9uZ2hlZSIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTk2MjAxN30.iIIUc0n4FIM1dzF-6Np1S-KbiJIpCMVOiae5jMsAqt0
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1NjUwMTd9.e9f-rJ6XKt2e4UbzqkmVuOJ-5bdBOorx-WzcRn_eAL8
 Content-Type: application/json
 
 {
@@ -81,8 +81,8 @@ GET http://localhost:8080/api/post
 ###멤버1 댓글 달기##############
 
 POST http://localhost:8080/api/auth/comment
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE5NTA3NjZ9.fYEnn50qzZ0EnxIkK5sZV__Ud_igE6_Qxd3GkAXxwb0
-Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1NTM3NjZ9.4sdv4zQjnQdHLc7O5whKJ3_g7HKYfKdczy2xI5xdfEw
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE5NjE5NDl9.75LY3pPAJKIc387m4zfppSkaYMnKOUCXc4mKkpR9RwY
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1NjQ5NDl9.tVvu3TU-oYDUYa3gaJnnyV8aRjCwsRsodIXJOvhPvhc
 Content-Type: application/json
 
 {
@@ -94,8 +94,8 @@ Content-Type: application/json
 ###멤버1 댓글 달기##############
 
 POST http://localhost:8080/api/auth/comment
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE5NTA3NjZ9.fYEnn50qzZ0EnxIkK5sZV__Ud_igE6_Qxd3GkAXxwb0
-Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1NTM3NjZ9.4sdv4zQjnQdHLc7O5whKJ3_g7HKYfKdczy2xI5xdfEw
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE5NjE5NDl9.75LY3pPAJKIc387m4zfppSkaYMnKOUCXc4mKkpR9RwY
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1NjQ5NDl9.tVvu3TU-oYDUYa3gaJnnyV8aRjCwsRsodIXJOvhPvhc
 Content-Type: application/json
 
 {
@@ -110,8 +110,8 @@ GET http://localhost:8080/api/comment/1
 ###멤버2 댓글 달기##############
 
 POST http://localhost:8080/api/auth/comment
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzZW9uZ2hlZSIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTk1MDg0MH0.DHY16_l9b_i-lRNQ0CtUJX4JgF0p7p79BvU_dJ6Bv1g
-Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1NTM4NDB9.ps7L1Bj8xj313kn4oi66JbPESY76wXHie45GSI1j9qc
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzZW9uZ2hlZSIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTk2MjAxN30.iIIUc0n4FIM1dzF-6Np1S-KbiJIpCMVOiae5jMsAqt0
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1NjUwMTd9.e9f-rJ6XKt2e4UbzqkmVuOJ-5bdBOorx-WzcRn_eAL8
 Content-Type: application/json
 
 {
@@ -136,8 +136,8 @@ Content-Type: application/json
 
 ###회원1 대댓글 달기1#################
 POST http://localhost:8080/api/auth/recomment
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE5NTA3NjZ9.fYEnn50qzZ0EnxIkK5sZV__Ud_igE6_Qxd3GkAXxwb0
-Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1NTM3NjZ9.4sdv4zQjnQdHLc7O5whKJ3_g7HKYfKdczy2xI5xdfEw
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE5NjE5NDl9.75LY3pPAJKIc387m4zfppSkaYMnKOUCXc4mKkpR9RwY
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1NjQ5NDl9.tVvu3TU-oYDUYa3gaJnnyV8aRjCwsRsodIXJOvhPvhc
 Content-Type: application/json
 
 {
@@ -148,8 +148,8 @@ Content-Type: application/json
 
 ###회원1 대댓글 달기2#################
 POST http://localhost:8080/api/auth/recomment
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE5NTA3NjZ9.fYEnn50qzZ0EnxIkK5sZV__Ud_igE6_Qxd3GkAXxwb0
-Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1NTM3NjZ9.4sdv4zQjnQdHLc7O5whKJ3_g7HKYfKdczy2xI5xdfEw
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE5NjE5NDl9.75LY3pPAJKIc387m4zfppSkaYMnKOUCXc4mKkpR9RwY
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1NjQ5NDl9.tVvu3TU-oYDUYa3gaJnnyV8aRjCwsRsodIXJOvhPvhc
 Content-Type: application/json
 
 {
@@ -178,63 +178,63 @@ GET http://localhost:8080/api/recomment/1
 
 #### 회원1 post1에 좋아요
 POST http://localhost:8080/api/auth/like/post/1
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE5NTA3NjZ9.fYEnn50qzZ0EnxIkK5sZV__Ud_igE6_Qxd3GkAXxwb0
-Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1NTM3NjZ9.4sdv4zQjnQdHLc7O5whKJ3_g7HKYfKdczy2xI5xdfEw
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE5NjE5NDl9.75LY3pPAJKIc387m4zfppSkaYMnKOUCXc4mKkpR9RwY
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1NjQ5NDl9.tVvu3TU-oYDUYa3gaJnnyV8aRjCwsRsodIXJOvhPvhc
 
 ##### 회원2 post2에 좋아요
 POST http://localhost:8080/api/auth/like/post/2
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzZW9uZ2hlZSIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTk1MDg0MH0.DHY16_l9b_i-lRNQ0CtUJX4JgF0p7p79BvU_dJ6Bv1g
-Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1NTM4NDB9.ps7L1Bj8xj313kn4oi66JbPESY76wXHie45GSI1j9qc
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzZW9uZ2hlZSIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTk2MjAxN30.iIIUc0n4FIM1dzF-6Np1S-KbiJIpCMVOiae5jMsAqt0
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1NjUwMTd9.e9f-rJ6XKt2e4UbzqkmVuOJ-5bdBOorx-WzcRn_eAL8
 
 #### 회원1 post2에 좋아요
 POST http://localhost:8080/api/auth/like/post/2
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE5NTA3NjZ9.fYEnn50qzZ0EnxIkK5sZV__Ud_igE6_Qxd3GkAXxwb0
-Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1NTM3NjZ9.4sdv4zQjnQdHLc7O5whKJ3_g7HKYfKdczy2xI5xdfEw
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE5NjE5NDl9.75LY3pPAJKIc387m4zfppSkaYMnKOUCXc4mKkpR9RwY
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1NjQ5NDl9.tVvu3TU-oYDUYa3gaJnnyV8aRjCwsRsodIXJOvhPvhc
 
 #### 회원1 post2에 좋아요 취소
 POST http://localhost:8080/api/auth/like/post/2
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE5NTA3NjZ9.fYEnn50qzZ0EnxIkK5sZV__Ud_igE6_Qxd3GkAXxwb0
-Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1NTM3NjZ9.4sdv4zQjnQdHLc7O5whKJ3_g7HKYfKdczy2xI5xdfEw
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE5NjE5NDl9.75LY3pPAJKIc387m4zfppSkaYMnKOUCXc4mKkpR9RwY
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1NjQ5NDl9.tVvu3TU-oYDUYa3gaJnnyV8aRjCwsRsodIXJOvhPvhc
 
 ###  회원1 댓글1에 좋아요
 POST http://localhost:8080/api/auth/like/comment/1
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE5NTA3NjZ9.fYEnn50qzZ0EnxIkK5sZV__Ud_igE6_Qxd3GkAXxwb0
-Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1NTM3NjZ9.4sdv4zQjnQdHLc7O5whKJ3_g7HKYfKdczy2xI5xdfEw
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE5NjE5NDl9.75LY3pPAJKIc387m4zfppSkaYMnKOUCXc4mKkpR9RwY
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1NjQ5NDl9.tVvu3TU-oYDUYa3gaJnnyV8aRjCwsRsodIXJOvhPvhc
 
 #### 회원1 댓글2에 좋아요
 POST http://localhost:8080/api/auth/like/comment/2
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE5NTA3NjZ9.fYEnn50qzZ0EnxIkK5sZV__Ud_igE6_Qxd3GkAXxwb0
-Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1NTM3NjZ9.4sdv4zQjnQdHLc7O5whKJ3_g7HKYfKdczy2xI5xdfEw
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE5NjE5NDl9.75LY3pPAJKIc387m4zfppSkaYMnKOUCXc4mKkpR9RwY
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1NjQ5NDl9.tVvu3TU-oYDUYa3gaJnnyV8aRjCwsRsodIXJOvhPvhc
 
 ### 회원2 댓글 2에 좋아요
 POST http://localhost:8080/api/auth/like/comment/2
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzZW9uZ2hlZSIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTk1MDg0MH0.DHY16_l9b_i-lRNQ0CtUJX4JgF0p7p79BvU_dJ6Bv1g
-Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1NTM4NDB9.ps7L1Bj8xj313kn4oi66JbPESY76wXHie45GSI1j9qc
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzZW9uZ2hlZSIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTk2MjAxN30.iIIUc0n4FIM1dzF-6Np1S-KbiJIpCMVOiae5jMsAqt0
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1NjUwMTd9.e9f-rJ6XKt2e4UbzqkmVuOJ-5bdBOorx-WzcRn_eAL8
 
 #### 회원2 댓글 2에 좋아요 취소
 POST http://localhost:8080/api/auth/like/comment/2
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzZW9uZ2hlZSIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTk1MDg0MH0.DHY16_l9b_i-lRNQ0CtUJX4JgF0p7p79BvU_dJ6Bv1g
-Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1NTM4NDB9.ps7L1Bj8xj313kn4oi66JbPESY76wXHie45GSI1j9qc
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzZW9uZ2hlZSIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTk2MjAxN30.iIIUc0n4FIM1dzF-6Np1S-KbiJIpCMVOiae5jMsAqt0
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1NjUwMTd9.e9f-rJ6XKt2e4UbzqkmVuOJ-5bdBOorx-WzcRn_eAL8
 
 #### 회원2 대댓글1에 좋아요
 POST http://localhost:8080/api/auth/like/recomment/1
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzZW9uZ2hlZSIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTk1MDg0MH0.DHY16_l9b_i-lRNQ0CtUJX4JgF0p7p79BvU_dJ6Bv1g
-Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1NTM4NDB9.ps7L1Bj8xj313kn4oi66JbPESY76wXHie45GSI1j9qc
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzZW9uZ2hlZSIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTk2MjAxN30.iIIUc0n4FIM1dzF-6Np1S-KbiJIpCMVOiae5jMsAqt0
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1NjUwMTd9.e9f-rJ6XKt2e4UbzqkmVuOJ-5bdBOorx-WzcRn_eAL8
 
 #### 회원2 대댓글2에 좋아요
 POST http://localhost:8080/api/auth/like/recomment/2
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzZW9uZ2hlZSIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTk1MDg0MH0.DHY16_l9b_i-lRNQ0CtUJX4JgF0p7p79BvU_dJ6Bv1g
-Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1NTM4NDB9.ps7L1Bj8xj313kn4oi66JbPESY76wXHie45GSI1j9qc
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzZW9uZ2hlZSIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTk2MjAxN30.iIIUc0n4FIM1dzF-6Np1S-KbiJIpCMVOiae5jMsAqt0
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1NjUwMTd9.e9f-rJ6XKt2e4UbzqkmVuOJ-5bdBOorx-WzcRn_eAL8
 
 #### 회원2 대댓글2에 좋아요 취소
 POST http://localhost:8080/api/auth/like/recomment/2
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzZW9uZ2hlZSIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTk1MDg0MH0.DHY16_l9b_i-lRNQ0CtUJX4JgF0p7p79BvU_dJ6Bv1g
-Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1NTM4NDB9.ps7L1Bj8xj313kn4oi66JbPESY76wXHie45GSI1j9qc
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzZW9uZ2hlZSIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTk2MjAxN30.iIIUc0n4FIM1dzF-6Np1S-KbiJIpCMVOiae5jMsAqt0
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1NjUwMTd9.e9f-rJ6XKt2e4UbzqkmVuOJ-5bdBOorx-WzcRn_eAL8
 
 ### 회원1 대댓글2에 좋아요
 POST http://localhost:8080/api/auth/like/recomment/2
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE5NTA3NjZ9.fYEnn50qzZ0EnxIkK5sZV__Ud_igE6_Qxd3GkAXxwb0
-Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1NTM3NjZ9.4sdv4zQjnQdHLc7O5whKJ3_g7HKYfKdczy2xI5xdfEw
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE5NjE5NDl9.75LY3pPAJKIc387m4zfppSkaYMnKOUCXc4mKkpR9RwY
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1NjQ5NDl9.tVvu3TU-oYDUYa3gaJnnyV8aRjCwsRsodIXJOvhPvhc
 
 ### 회원1
 
@@ -246,8 +246,8 @@ Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1NTM3NjZ9.4sdv4zQjnQdHLc7O5wh
 
 ######## 회원1 작성한 게시글, 댓글, 대댓글 마이페이지
 GET http://localhost:8080/api/auth/member/mypage/writes
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE5NTA3NjZ9.fYEnn50qzZ0EnxIkK5sZV__Ud_igE6_Qxd3GkAXxwb0
-Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1NTM3NjZ9.4sdv4zQjnQdHLc7O5whKJ3_g7HKYfKdczy2xI5xdfEw
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE5NjE5NDl9.75LY3pPAJKIc387m4zfppSkaYMnKOUCXc4mKkpR9RwY
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1NjQ5NDl9.tVvu3TU-oYDUYa3gaJnnyV8aRjCwsRsodIXJOvhPvhc
 
 
 ######## 회원2 작성한 게시글, 댓글, 대댓글 마이페이지
@@ -257,8 +257,8 @@ Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1NTM4NDB9.ps7L1Bj8xj313kn4oi6
 
 ######## 회원1 좋아요한 게시글, 댓글, 대댓글 마이페이지
 GET http://localhost:8080/api/auth/member/mypage/likes
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE5NTQ3MTB9.G7WoSsnmDm-P_bTu6d63twmokXW8JHqbyMNSWoSA1kQ
-Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1NTc3MTB9.EUYhq8tplnxui9F54LeftDECRH2XqZ76sc2zBDPXw_o
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE5NjE5NDl9.75LY3pPAJKIc387m4zfppSkaYMnKOUCXc4mKkpR9RwY
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1NjQ5NDl9.tVvu3TU-oYDUYa3gaJnnyV8aRjCwsRsodIXJOvhPvhc
 
 
 ######## 회원2 좋아요한 게시글, 댓글, 대댓글 마이페이지
