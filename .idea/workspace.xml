@@ -87,10 +87,10 @@
     <configuration name="logintest | 로그인1####################################" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/logintest.http" index="3" requestIdentifier="로그인1####################################" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="logintest | ## 회원1 post2에 좋아요 취소" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/logintest.http" index="17" requestIdentifier="## 회원1 post2에 좋아요 취소" runType="Run single request">
+    <configuration name="logintest | ## 회원1 post2에 좋아요" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/logintest.http" index="16" requestIdentifier="## 회원1 post2에 좋아요" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="logintest | ## 회원1 post2에 좋아요" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/logintest.http" index="16" requestIdentifier="## 회원1 post2에 좋아요" runType="Run single request">
+    <configuration name="logintest | ## 회원1 post2에 좋아요 취소" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/logintest.http" index="17" requestIdentifier="## 회원1 post2에 좋아요 취소" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="IntermediateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -107,8 +107,8 @@
       <item itemvalue="HTTP Request.logintest | ## 회원1 post2에 좋아요 취소" />
       <item itemvalue="HTTP Request.logintest | 로그인1####################################" />
       <item itemvalue="HTTP Request.logintest | 회원가입1########################" />
-      <item itemvalue="Spring Boot.IntermediateApplication" />
       <item itemvalue="HTTP Request.logintest | 멤버1 게시글 작성#############################1" />
+      <item itemvalue="Spring Boot.IntermediateApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -132,6 +132,7 @@
       <workItem from="1661824093448" duration="282000" />
       <workItem from="1661833944113" duration="1762000" />
       <workItem from="1661863524555" duration="27481000" />
+      <workItem from="1661929782968" duration="167000" />
     </task>
     <servers />
   </component>
