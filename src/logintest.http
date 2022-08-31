@@ -150,6 +150,16 @@ GET http://localhost:8080/api/recomment/1
 #  "content":"대댓글 수정자: 회원2/ 게시글 1의 댓글 1의 대댓글 1의 수정"
 #
 #}
+######## 회원1 작성한 게시글, 댓글, 대댓글 마이페이지
+GET http://localhost:8080/api/auth/member/mypage/writes
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE5MzIzODR9.IWwc6BGTFZC-zqcOQP7msaedvHAiQgqywUlakOEXTnc
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1MzUzODR9.oZad_PAoCegZkZCkWZP49BVYzbUVOqVus2k2GDma2Mg
+
+
+######## 회원2 작성한 게시글, 댓글, 대댓글 마이페이지
+GET http://localhost:8080/api/auth/member/mypage/writes
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE5MzIzODR9.IWwc6BGTFZC-zqcOQP7msaedvHAiQgqywUlakOEXTnc
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1MzUzODR9.oZad_PAoCegZkZCkWZP49BVYzbUVOqVus2k2GDma2Mg
 
 #### 회원1 post1에 좋아요
 POST http://localhost:8080/api/auth/like/post/1

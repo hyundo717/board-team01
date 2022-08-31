@@ -5,15 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52c67505-a82e-47d1-b822-327aecbec4d0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/intermediate/controller/response/mypage/CommentLisMyPagetDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/intermediate/controller/response/mypage/PostListMyPageDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/intermediate/controller/response/mypage/RecommentListDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logintest.http" beforeDir="false" afterPath="$PROJECT_DIR$/src/logintest.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermediate/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/intermediate/controller/MemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermediate/controller/response/CommentResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/intermediate/controller/response/CommentResponseDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermediate/controller/response/ListResponseProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/intermediate/controller/response/ListResponseProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermediate/controller/response/ResponseMypageDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/intermediate/controller/response/mypage/ResponseMypageDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermediate/controller/response/mypage/CommentLisMyPagetDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/intermediate/controller/response/mypage/CommentListMyPageDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermediate/controller/response/mypage/RecommentListDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/intermediate/controller/response/mypage/RecommentListMypageDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermediate/controller/response/mypage/ResponseMypageDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/intermediate/controller/response/mypage/ResponseMypageDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermediate/repository/CommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/intermediate/repository/CommentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermediate/repository/RecommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/intermediate/repository/RecommentRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermediate/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/intermediate/service/MemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermediate/service/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/intermediate/service/PostService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

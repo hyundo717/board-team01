@@ -2,23 +2,24 @@ package com.example.intermediate.service;
 
 import com.example.intermediate.controller.response.*;
 import com.example.intermediate.controller.response.mypage.PostListMyPageDto;
+import com.example.intermediate.controller.response.mypage.CommentListMyPageDto;
+import com.example.intermediate.controller.response.mypage.RecommentListMypageDto;
 import com.example.intermediate.controller.response.mypage.ResponseMypageDto;
+import com.example.intermediate.domain.Comment;
 import com.example.intermediate.domain.Member;
 import com.example.intermediate.controller.request.LoginRequestDto;
 import com.example.intermediate.controller.request.MemberRequestDto;
 import com.example.intermediate.controller.request.TokenDto;
 import com.example.intermediate.domain.Post;
+import com.example.intermediate.domain.Recomment;
 import com.example.intermediate.jwt.TokenProvider;
-import com.example.intermediate.repository.CommentRepository;
-import com.example.intermediate.repository.LikePostRepository;
-import com.example.intermediate.repository.MemberRepository;
+import com.example.intermediate.repository.*;
 
 import java.util.List;
 import java.util.Optional;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.example.intermediate.repository.PostRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
@@ -30,15 +31,19 @@ public class MemberService {
 
   private final MemberRepository memberRepository;
 
-  private final LikePostRepository likePostRepository;
+//  private final LikePostRepository likePostRepository;
 
   private final PostRepository postRepository;
 
   private final CommentRepository commentRepository;
 
+  private final RecommentRepository recommentRepository;
+
   private final PasswordEncoder passwordEncoder;
 
   private final TokenProvider tokenProvider;
+
+  private final ListResponseProvider listResponse;
 
   @Transactional
   public ResponseDto<?> createMember(MemberRequestDto requestDto) {
@@ -121,15 +126,18 @@ public class MemberService {
       return ResponseMypageDto.fail("INVALID_TOKEN", "Token이 유효하지 않습니다.");
     }
 
-    ListResponseProvider listResponse = new ListResponseProvider(commentRepository);
-
+    String nickname = member.getNickname();
     // 사용자가 작성한 게시글 리스트
-    List<Post> writePostsList = postRepository.findAllByMember(member);
-    List<PostListMyPageDto> postListMypageDtos = listResponse.GetPostListMypage(writePostsList);
+    List<Post> writePosts = postRepository.findAllByMember(member);
+    List<PostListMyPageDto> postListMypageDtos = listResponse.getPostListMypage(writePosts, nickname);
     
     // 사용자가 작성한 댓글 리스트
+    List<Comment> writeComments = commentRepository.findAllByMember(member);
+    List<CommentListMyPageDto> commentListMyPageDtos = listResponse.getCommentListMypage(writeComments, nickname);
     
     // 사용자가 작성한 대댓글 리스트
+    List<Recomment> writeRecomments = recommentRepository.findAllByMember(member);
+    List<RecommentListMypageDto> recommentListMypageDtos = listResponse.getRecommentListMypage(writeRecomments,nickname);
 
     // 사용자가 좋아요한 게시글 리스트
 //    List<LikePost> likePosts = likePostRepository.findAllByMember(member);
@@ -154,7 +162,7 @@ public class MemberService {
 //      }
 //      return ResponseMypageDto.success(postResponseDtoList);
 //    }
-    return ResponseMypageDto.fail("","");
+    return ResponseMypageDto.success(postListMypageDtos,commentListMyPageDtos,recommentListMypageDtos);
   }
 
   @Transactional

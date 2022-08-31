@@ -11,11 +11,12 @@ import java.time.LocalDateTime;
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-public class RecommentListDto {
+public class CommentListMyPageDto {
     private Long id;
     private String author;
     private String content;
     private int likesNum;
+    private int recommentsNum;
     private LocalDateTime createdAt;
     private LocalDateTime modifiedAt;
 }

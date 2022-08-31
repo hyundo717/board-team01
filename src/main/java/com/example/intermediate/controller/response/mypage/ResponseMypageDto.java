@@ -10,12 +10,12 @@ import java.util.List;
 public class ResponseMypageDto {
     private boolean success;
     private List<PostListMyPageDto> postList;
-    private List<CommentLisMyPagetDto> commentList;
-    private List<RecommentListDto> recommentList;
+    private List<CommentListMyPageDto> commentList;
+    private List<RecommentListMypageDto> recommentList;
 
     private Error error;
 
-    public static ResponseMypageDto success(List<PostListMyPageDto> postList, List<CommentLisMyPagetDto> commentList, List<RecommentListDto> recommentList) {
+    public static ResponseMypageDto success(List<PostListMyPageDto> postList, List<CommentListMyPageDto> commentList, List<RecommentListMypageDto> recommentList) {
         return new ResponseMypageDto(true, postList, commentList, recommentList, null);
     }
 

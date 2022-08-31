@@ -32,7 +32,7 @@ public class MemberController {
     return memberService.login(requestDto, response);
   }
 
-  @RequestMapping(value = "/api/auth/member/mypage", method = RequestMethod.GET)
+  @RequestMapping(value = "/api/auth/member/mypage/writes", method = RequestMethod.GET)
   public ResponseMypageDto mypageWrite(HttpServletRequest request) {
     return memberService.mypageWrite(request);
   }

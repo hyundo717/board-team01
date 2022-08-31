@@ -29,6 +29,8 @@ public class PostService {
 
   private final TokenProvider tokenProvider;
 
+  private final ListResponseProvider listResponse;
+
   @Transactional
   public ResponseDto<?> createPost(PostRequestDto requestDto, HttpServletRequest request) {
     if (null == request.getHeader("Refresh-Token")) {
@@ -106,9 +108,7 @@ public class PostService {
   public ResponseDto<?> getAllPost() {
     List<Post> postList = postRepository.findAllByOrderByModifiedAtDesc();
 
-    ListResponseProvider listResponse = new ListResponseProvider(commentRepository);
-
-    return ResponseDto.success(listResponse.GetPostListResponse(postList));
+    return ResponseDto.success(listResponse.getPostListResponse(postList));
   }
 
   @Transactional
