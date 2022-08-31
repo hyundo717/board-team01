@@ -53,11 +53,11 @@ public class LikeService {
                     .postId(id)
                     .build();
             likePostRepository.save(saveLikePost);
-            post.update(1);
+            post.like();
             return ResponseDto.success("post like success");
         } else {
             likePostRepository.delete(likePost);
-            post.update(-1);
+            post.unlike();
             return ResponseDto.success("successfully deleted post like");
         }
 
@@ -95,11 +95,11 @@ public class LikeService {
                     .commentId(id)
                     .build();
             likeCoRepository.save(saveLikeComment);
-            comment.update(1);
+            comment.like();
             return ResponseDto.success("comment like success");
         } else {
             likeCoRepository.delete(likeComment);
-            comment.update(-1);
+            comment.unlike();
             return ResponseDto.success("successfully deleted comment like");
         }
     }
@@ -136,11 +136,11 @@ public class LikeService {
                     .recommentId(id)
                     .build();
             likeRecoRepository.save(saveLikeRecomment);
-            recomment.update(1);
+            recomment.like();
             return ResponseDto.success("recomment like success");
         } else {
             likeRecoRepository.delete(likeReco);
-            recomment.update(-1);
+            recomment.unlike();
             return ResponseDto.success("successfully deleted recomment like");
         }
     }

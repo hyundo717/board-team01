@@ -52,8 +52,12 @@ public class Post extends Timestamped {
     this.content = postRequestDto.getContent();
   }
 
-  public void update(int value){
-    this.likesNum += value;
+  public void like(){
+    this.likesNum += 1;
+  }
+
+  public void unlike(){
+    this.likesNum -= 1;
   }
 
 //  public void update(String imgUrl){this.imgUrl = imgUrl;}
