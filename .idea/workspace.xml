@@ -5,17 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52c67505-a82e-47d1-b822-327aecbec4d0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-08-31T173228.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-08-31T173230.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-08-31T173231.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-08-31T173241.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-08-31T173249.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-08-31T173302.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/intermediate/controller/MemberController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/intermediate/controller/MemberController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/intermediate/controller/response/ListResponseProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/intermediate/controller/response/ListResponseProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/intermediate/repository/CommentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/intermediate/repository/CommentRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/intermediate/repository/RecommentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/intermediate/repository/RecommentRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/intermediate/service/MemberService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/intermediate/service/MemberService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/logintest.http" beforeDir="false" afterPath="$PROJECT_DIR$/src/logintest.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermediate/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/intermediate/controller/MemberController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermediate/controller/response/ListResponseProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/intermediate/controller/response/ListResponseProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermediate/controller/response/mypage/CommentLisMyPagetDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/intermediate/controller/response/mypage/CommentListMyPageDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermediate/controller/response/mypage/RecommentListDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/intermediate/controller/response/mypage/RecommentListMypageDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermediate/controller/response/mypage/ResponseMypageDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/intermediate/controller/response/mypage/ResponseMypageDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermediate/repository/CommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/intermediate/repository/CommentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermediate/repository/RecommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/intermediate/repository/RecommentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermediate/controller/response/mypage/CommentListMyPageDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/intermediate/controller/response/mypage/CommentListMyPageDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermediate/controller/response/mypage/PostListMyPageDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/intermediate/controller/response/mypage/PostListMyPageDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermediate/controller/response/mypage/RecommentListMypageDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/intermediate/controller/response/mypage/RecommentListMypageDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermediate/repository/LikeRecoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/intermediate/repository/LikeRecoRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermediate/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/intermediate/service/MemberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermediate/service/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/intermediate/service/PostService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,19 +108,19 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../board" />
   </component>
   <component name="RunManager" selected="Spring Boot.IntermediateApplication">
-    <configuration name="logintest | 멤버1 댓글 달기############################" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/logintest.http" index="8" requestIdentifier="멤버1 댓글 달기############################" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="logintest | 멤버1 게시글 작성#############################1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/logintest.http" index="5" requestIdentifier="멤버1 게시글 작성#############################1" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="logintest | 회원1 댓글1에 좋아요" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/logintest.http" index="18" requestIdentifier="회원1 댓글1에 좋아요" runType="Run single request">
+    <configuration name="logintest | 회원1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/logintest.http" index="28" requestIdentifier="회원1" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="logintest | 로그인1####################################" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/logintest.http" index="3" requestIdentifier="로그인1####################################" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="logintest | 회원가입2########################" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/logintest.http" index="2" requestIdentifier="회원가입2########################" runType="Run single request">
+    <configuration name="logintest | 로그인2####################################" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/logintest.http" index="4" requestIdentifier="로그인2####################################" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="logintest | ########## 회원1 좋아요한 게시글, 댓글, 대댓글 마이페이지" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/logintest.http" index="30" requestIdentifier="########## 회원1 좋아요한 게시글, 댓글, 대댓글 마이페이지" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="logintest | ########## 회원2 좋아요한 게시글, 댓글, 대댓글 마이페이지" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/logintest.http" index="31" requestIdentifier="########## 회원2 좋아요한 게시글, 댓글, 대댓글 마이페이지" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="IntermediateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -113,20 +133,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="HTTP Request.logintest | 회원가입2########################" />
-      <item itemvalue="HTTP Request.logintest | 로그인1####################################" />
-      <item itemvalue="HTTP Request.logintest | 멤버1 게시글 작성#############################1" />
-      <item itemvalue="HTTP Request.logintest | 멤버1 댓글 달기############################" />
-      <item itemvalue="HTTP Request.logintest | 회원1 댓글1에 좋아요" />
       <item itemvalue="Spring Boot.IntermediateApplication" />
+      <item itemvalue="HTTP Request.logintest | 회원1" />
+      <item itemvalue="HTTP Request.logintest | ########## 회원1 좋아요한 게시글, 댓글, 대댓글 마이페이지" />
+      <item itemvalue="HTTP Request.logintest | 로그인1####################################" />
+      <item itemvalue="HTTP Request.logintest | 로그인2####################################" />
+      <item itemvalue="HTTP Request.logintest | ########## 회원2 좋아요한 게시글, 댓글, 대댓글 마이페이지" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.logintest | 회원1 댓글1에 좋아요" />
-        <item itemvalue="HTTP Request.logintest | 멤버1 댓글 달기############################" />
-        <item itemvalue="HTTP Request.logintest | 멤버1 게시글 작성#############################1" />
+        <item itemvalue="HTTP Request.logintest | ########## 회원1 좋아요한 게시글, 댓글, 대댓글 마이페이지" />
+        <item itemvalue="HTTP Request.logintest | ########## 회원2 좋아요한 게시글, 댓글, 대댓글 마이페이지" />
+        <item itemvalue="HTTP Request.logintest | 로그인2####################################" />
         <item itemvalue="HTTP Request.logintest | 로그인1####################################" />
-        <item itemvalue="HTTP Request.logintest | 회원가입2########################" />
+        <item itemvalue="HTTP Request.logintest | 회원1" />
       </list>
     </recent_temporary>
   </component>

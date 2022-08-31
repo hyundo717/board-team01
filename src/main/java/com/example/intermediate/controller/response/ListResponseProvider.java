@@ -3,21 +3,23 @@ package com.example.intermediate.controller.response;
 import com.example.intermediate.controller.response.mypage.CommentListMyPageDto;
 import com.example.intermediate.controller.response.mypage.PostListMyPageDto;
 import com.example.intermediate.controller.response.mypage.RecommentListMypageDto;
-import com.example.intermediate.domain.Comment;
-import com.example.intermediate.domain.Post;
-import com.example.intermediate.domain.Recomment;
+import com.example.intermediate.domain.*;
 import com.example.intermediate.repository.CommentRepository;
+import com.example.intermediate.repository.PostRepository;
 import com.example.intermediate.repository.RecommentRepository;
 import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Component
 @RequiredArgsConstructor
 public class ListResponseProvider {
 
     private final CommentRepository commentRepository;
     private final RecommentRepository recommentRepository;
+    private final PostRepository postRepository;
 
     public List<PostListResponseDto> getPostListResponse(List<Post> postList){
         List<PostListResponseDto> postListResponseDtos = new ArrayList<>();
@@ -44,7 +46,7 @@ public class ListResponseProvider {
 
     public PostListMyPageDto buildPostListMypageDto(Post post, List<Comment> comments, String author){
         return PostListMyPageDto.builder()
-                .id(post.getId())
+                .postId(post.getId())
                 .title(post.getTitle())
                 .author(author)
                 .content(post.getContent())
@@ -58,7 +60,8 @@ public class ListResponseProvider {
 
     public CommentListMyPageDto buildCommentListMypageDto(Comment comment, List<Recomment> recomments, String author){
         return CommentListMyPageDto.builder()
-                .id(comment.getId())
+                .commentId(comment.getId())
+                .postId(comment.getPost().getId())
                 .author(author)
                 .content(comment.getContent())
                 .likesNum(comment.getLikesNum())
@@ -70,7 +73,9 @@ public class ListResponseProvider {
 
     public RecommentListMypageDto buildRecommentListMypageDto(Recomment recomment, String author){
         return RecommentListMypageDto.builder()
-                .id(recomment.getId())
+                .recommentId(recomment.getId())
+                .commentId(recomment.getComment().getId())
+                .postId(recomment.getPost().getId())
                 .author(author)
                 .content(recomment.getContent())
                 .likesNum(recomment.getLikesNum())
@@ -112,5 +117,57 @@ public class ListResponseProvider {
             }
         }
         return recommentListMyPagetDtos;
+    }
+
+    public List<PostListMyPageDto> getLikePosts(List<LikePost> likePosts){
+        List<PostListMyPageDto> postListMyPageDtos = new ArrayList<>();
+
+        for(LikePost likePost : likePosts){
+            Long postId = likePost.getPostId();
+            Post post = postRepository.findById(postId).orElse(null);
+
+            if(post == null){throw new RuntimeException();}
+
+            List<Comment> comments = commentRepository.findAllByPost(post);
+
+            String author = post.getMember().getNickname();
+
+            postListMyPageDtos.add(buildPostListMypageDto(post,comments,author));
+        }
+        return postListMyPageDtos;
+    }
+
+    public List<CommentListMyPageDto> getLikeComments(List<LikeCo> likeComments){
+        List<CommentListMyPageDto> commentListMyPageDtos = new ArrayList<>();
+
+        for(LikeCo likeComment : likeComments){
+            Long commentId = likeComment.getCommentId();
+            Comment comment = commentRepository.findById(commentId).orElse(null);
+
+            if(comment == null){throw new RuntimeException();}
+
+            List<Recomment> recomments = recommentRepository.findAllByComment(comment);
+
+            String author = comment.getMember().getNickname();
+
+            commentListMyPageDtos.add(buildCommentListMypageDto(comment,recomments,author));
+        }
+        return commentListMyPageDtos;
+    }
+
+    public List<RecommentListMypageDto> getLikeRecomments(List<LikeReco> likeRecomments){
+        List<RecommentListMypageDto> recommentListMyPageDtos = new ArrayList<>();
+
+        for(LikeReco likeRecomment : likeRecomments){
+            Long recommentId = likeRecomment.getRecommentId();
+            Recomment recomment = recommentRepository.findById(recommentId).orElse(null);
+
+            if(recomment == null) {throw new RuntimeException();}
+
+            String author = recomment.getMember().getNickname();
+
+            recommentListMyPageDtos.add(buildRecommentListMypageDto(recomment,author));
+        }
+        return recommentListMyPageDtos;
     }
 }

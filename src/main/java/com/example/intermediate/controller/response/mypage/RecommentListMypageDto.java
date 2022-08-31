@@ -12,7 +12,9 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @AllArgsConstructor
 public class RecommentListMypageDto {
-    private Long id;
+    private Long recommentId;
+    private Long commentId;
+    private Long postId;
     private String author;
     private String content;
     private int likesNum;

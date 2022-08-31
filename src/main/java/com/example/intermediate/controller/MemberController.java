@@ -37,6 +37,11 @@ public class MemberController {
     return memberService.mypageWrite(request);
   }
 
+  @RequestMapping(value = "/api/auth/member/mypage/likes", method = RequestMethod.GET)
+  public ResponseMypageDto mypageLike(HttpServletRequest request) {
+    return memberService.mypageLike(request);
+  }
+
 //  @RequestMapping(value = "/api/auth/member/reissue", method = RequestMethod.POST)
 //  public ResponseDto<?> reissue(HttpServletRequest request, HttpServletResponse response) {
 //    return memberService.reissue(request, response);

@@ -12,7 +12,7 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @AllArgsConstructor
 public class PostListMyPageDto {
-    private Long id;
+    private Long postId;
     private String title;
     private String author;
     private String imgUrl;

@@ -5,13 +5,10 @@ import com.example.intermediate.controller.response.mypage.PostListMyPageDto;
 import com.example.intermediate.controller.response.mypage.CommentListMyPageDto;
 import com.example.intermediate.controller.response.mypage.RecommentListMypageDto;
 import com.example.intermediate.controller.response.mypage.ResponseMypageDto;
-import com.example.intermediate.domain.Comment;
-import com.example.intermediate.domain.Member;
+import com.example.intermediate.domain.*;
 import com.example.intermediate.controller.request.LoginRequestDto;
 import com.example.intermediate.controller.request.MemberRequestDto;
 import com.example.intermediate.controller.request.TokenDto;
-import com.example.intermediate.domain.Post;
-import com.example.intermediate.domain.Recomment;
 import com.example.intermediate.jwt.TokenProvider;
 import com.example.intermediate.repository.*;
 
@@ -31,7 +28,11 @@ public class MemberService {
 
   private final MemberRepository memberRepository;
 
-//  private final LikePostRepository likePostRepository;
+  private final LikePostRepository likePostRepository;
+
+  private final LikeCoRepository likeCoRepository;
+
+  private final LikeRecoRepository likeRecoRepository;
 
   private final PostRepository postRepository;
 
@@ -139,29 +140,38 @@ public class MemberService {
     List<Recomment> writeRecomments = recommentRepository.findAllByMember(member);
     List<RecommentListMypageDto> recommentListMypageDtos = listResponse.getRecommentListMypage(writeRecomments,nickname);
 
+    return ResponseMypageDto.success(postListMypageDtos,commentListMyPageDtos,recommentListMypageDtos);
+  }
+
+  public ResponseMypageDto mypageLike(HttpServletRequest request) {
+    if (null == request.getHeader("Refresh-Token")) {
+      return ResponseMypageDto.fail("MEMBER_NOT_FOUND",
+              "로그인이 필요합니다.");
+    }
+
+    if (null == request.getHeader("Authorization")) {
+      return ResponseMypageDto.fail("MEMBER_NOT_FOUND",
+              "로그인이 필요합니다.");
+    }
+
+    Member member = validateMember(request);
+    if (null == member) {
+      return ResponseMypageDto.fail("INVALID_TOKEN", "Token이 유효하지 않습니다.");
+    }
+
+
     // 사용자가 좋아요한 게시글 리스트
-//    List<LikePost> likePosts = likePostRepository.findAllByMember(member);
+    List<LikePost> likePosts = likePostRepository.findAllByMember(member);
+    List<PostListMyPageDto> postListMypageDtos = listResponse.getLikePosts(likePosts);
 
     // 사용자가 좋아요한 댓글 리스트
-//    if(likePosts.isEmpty()){
-//      return ResponseDto.success(null);
-//    } else {
-//      List<PostResponseDto> postResponseDtoList = new ArrayList<>();
-//      for (LikePost likePost : likePosts){
-//        Long postId = likePost.getPostId();
-//        postRepository.findById(postId).ifPresent(post -> postResponseDtoList.add(
-//                PostResponseDto.builder()
-//                        .id(postId)
-//                        .title(post.getTitle())
-//                        .content(post.getContent())
-//                        .author(post.getMember().getNickname())
-//                        .createdAt(post.getCreatedAt())
-//                        .modifiedAt(post.getModifiedAt())
-//                        .build()
-//        ));
-//      }
-//      return ResponseMypageDto.success(postResponseDtoList);
-//    }
+    List<LikeCo> likeComments = likeCoRepository.findAllByMember(member);
+    List<CommentListMyPageDto> commentListMyPageDtos = listResponse.getLikeComments(likeComments);
+
+    // 사용자가 좋아요한 대댓글 리스트
+    List<LikeReco> likeRecomments = likeRecoRepository.findAllByMember(member);
+    List<RecommentListMypageDto> recommentListMypageDtos = listResponse.getLikeRecomments(likeRecomments);
+
     return ResponseMypageDto.success(postListMypageDtos,commentListMyPageDtos,recommentListMypageDtos);
   }
 
