@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52c67505-a82e-47d1-b822-327aecbec4d0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/intermediate/controller/response/mypage/CommentLisMyPagetDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/intermediate/controller/response/mypage/PostListMyPageDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/intermediate/controller/response/mypage/RecommentListDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logintest.http" beforeDir="false" afterPath="$PROJECT_DIR$/src/logintest.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermediate/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/intermediate/controller/MemberController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermediate/controller/response/CommentResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/intermediate/controller/response/CommentResponseDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermediate/controller/response/RecommentResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/intermediate/controller/response/RecommentResponseDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermediate/controller/response/ResponseMypageDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/intermediate/controller/response/ResponseMypageDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermediate/controller/response/ListResponseProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/intermediate/controller/response/ListResponseProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermediate/controller/response/ResponseMypageDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/intermediate/controller/response/mypage/ResponseMypageDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermediate/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/intermediate/service/MemberService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,12 +111,12 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.IntermediateApplication" />
       <item itemvalue="HTTP Request.logintest | 회원가입2########################" />
       <item itemvalue="HTTP Request.logintest | 로그인1####################################" />
       <item itemvalue="HTTP Request.logintest | 멤버1 게시글 작성#############################1" />
       <item itemvalue="HTTP Request.logintest | 멤버1 댓글 달기############################" />
       <item itemvalue="HTTP Request.logintest | 회원1 댓글1에 좋아요" />
+      <item itemvalue="Spring Boot.IntermediateApplication" />
     </list>
     <recent_temporary>
       <list>

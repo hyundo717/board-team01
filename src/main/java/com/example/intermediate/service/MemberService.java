@@ -1,7 +1,8 @@
 package com.example.intermediate.service;
 
 import com.example.intermediate.controller.response.*;
-import com.example.intermediate.domain.LikePost;
+import com.example.intermediate.controller.response.mypage.PostListMyPageDto;
+import com.example.intermediate.controller.response.mypage.ResponseMypageDto;
 import com.example.intermediate.domain.Member;
 import com.example.intermediate.controller.request.LoginRequestDto;
 import com.example.intermediate.controller.request.MemberRequestDto;
@@ -12,7 +13,6 @@ import com.example.intermediate.repository.CommentRepository;
 import com.example.intermediate.repository.LikePostRepository;
 import com.example.intermediate.repository.MemberRepository;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import javax.servlet.http.HttpServletRequest;
@@ -37,7 +37,7 @@ public class MemberService {
   private final CommentRepository commentRepository;
 
   private final PasswordEncoder passwordEncoder;
-//  private final AuthenticationManagerBuilder authenticationManagerBuilder;
+
   private final TokenProvider tokenProvider;
 
   @Transactional
@@ -79,10 +79,6 @@ public class MemberService {
       return ResponseDto.fail("INVALID_MEMBER", "사용자를 찾을 수 없습니다.");
     }
 
-//    UsernamePasswordAuthenticationToken authenticationToken =
-//        new UsernamePasswordAuthenticationToken(requestDto.getNickname(), requestDto.getPassword());
-//    Authentication authentication = authenticationManagerBuilder.getObject().authenticate(authenticationToken);
-
     TokenDto tokenDto = tokenProvider.generateTokenDto(member);
     tokenToHeaders(tokenDto, response);
 
@@ -95,30 +91,6 @@ public class MemberService {
             .build()
     );
   }
-
-//  @Transactional
-//  public ResponseDto<?> reissue(HttpServletRequest request, HttpServletResponse response) {
-//    if (!tokenProvider.validateToken(request.getHeader("Refresh-Token"))) {
-//      return ResponseDto.fail("INVALID_TOKEN", "Token이 유효하지 않습니다.");
-//    }
-//    Member member = tokenProvider.getMemberFromAuthentication();
-//    if (null == member) {
-//      return ResponseDto.fail("MEMBER_NOT_FOUND",
-//          "사용자를 찾을 수 없습니다.");
-//    }
-//
-//    Authentication authentication = tokenProvider.getAuthentication(request.getHeader("Access-Token"));
-//    RefreshToken refreshToken = tokenProvider.isPresentRefreshToken(member);
-//
-//    if (!refreshToken.getValue().equals(request.getHeader("Refresh-Token"))) {
-//      return ResponseDto.fail("INVALID_TOKEN", "Token이 유효하지 않습니다.");
-//    }
-//
-//    TokenDto tokenDto = tokenProvider.generateTokenDto(member);
-//    refreshToken.updateValue(tokenDto.getRefreshToken());
-//    tokenToHeaders(tokenDto, response);
-//    return ResponseDto.success("success");
-//  }
 
   public ResponseDto<?> logout(HttpServletRequest request) {
     if (!tokenProvider.validateToken(request.getHeader("Refresh-Token"))) {
@@ -133,7 +105,7 @@ public class MemberService {
     return tokenProvider.deleteRefreshToken(member);
   }
 
-  public ResponseMypageDto<?> mypage(HttpServletRequest request) {
+  public ResponseMypageDto mypageWrite(HttpServletRequest request) {
     if (null == request.getHeader("Refresh-Token")) {
       return ResponseMypageDto.fail("MEMBER_NOT_FOUND",
               "로그인이 필요합니다.");
@@ -152,14 +124,15 @@ public class MemberService {
     ListResponseProvider listResponse = new ListResponseProvider(commentRepository);
 
     // 사용자가 작성한 게시글 리스트
-    List<Post> writePosts = postRepository.findAllByMember(member);
-    List<PostListResponseDto> postListResponseDtos = listResponse.GetPostListResponse(writePosts);
+    List<Post> writePostsList = postRepository.findAllByMember(member);
+    List<PostListMyPageDto> postListMypageDtos = listResponse.GetPostListMypage(writePostsList);
     
     // 사용자가 작성한 댓글 리스트
     
+    // 사용자가 작성한 대댓글 리스트
 
     // 사용자가 좋아요한 게시글 리스트
-    List<LikePost> likePosts = likePostRepository.findAllByMember(member);
+//    List<LikePost> likePosts = likePostRepository.findAllByMember(member);
 
     // 사용자가 좋아요한 댓글 리스트
 //    if(likePosts.isEmpty()){
