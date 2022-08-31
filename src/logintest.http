@@ -40,8 +40,8 @@ Content-Type: application/json
 ###멤버1 게시글 작성##############
 
 POST http://localhost:8080/api/auth/post
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE5MzIzODR9.IWwc6BGTFZC-zqcOQP7msaedvHAiQgqywUlakOEXTnc
-Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1MzUzODR9.oZad_PAoCegZkZCkWZP49BVYzbUVOqVus2k2GDma2Mg
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE5MzY1NTF9.dmgn1eyzRBpGZ0NbKUs2G12R2zoWpKeBlaJtQKbJpOs
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1Mzk1NTF9.56cy5iRmZ9MJfI7IreOGUDmDDastNvntqM0C6l9ma2s
 Content-Type: application/json
 
 {
@@ -69,8 +69,8 @@ GET http://localhost:8080/api/post
 ###멤버1 댓글 달기##############
 
 POST http://localhost:8080/api/auth/comment
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE5MzIzODR9.IWwc6BGTFZC-zqcOQP7msaedvHAiQgqywUlakOEXTnc
-Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1MzUzODR9.oZad_PAoCegZkZCkWZP49BVYzbUVOqVus2k2GDma2Mg
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE5MzY1NTF9.dmgn1eyzRBpGZ0NbKUs2G12R2zoWpKeBlaJtQKbJpOs
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1Mzk1NTF9.56cy5iRmZ9MJfI7IreOGUDmDDastNvntqM0C6l9ma2s
 Content-Type: application/json
 
 {
@@ -173,8 +173,8 @@ Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1MzUzODR9.oZad_PAoCegZkZCkWZP
 
 ###  회원1 댓글1에 좋아요
 POST http://localhost:8080/api/auth/like/comment/1
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE5MzIzODR9.IWwc6BGTFZC-zqcOQP7msaedvHAiQgqywUlakOEXTnc
-Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1MzUzODR9.oZad_PAoCegZkZCkWZP49BVYzbUVOqVus2k2GDma2Mg
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE5MzY1NTF9.dmgn1eyzRBpGZ0NbKUs2G12R2zoWpKeBlaJtQKbJpOs
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1Mzk1NTF9.56cy5iRmZ9MJfI7IreOGUDmDDastNvntqM0C6l9ma2s
 
 #### 회원1 댓글2에 좋아요
 POST http://localhost:8080/api/auth/like/comment/2

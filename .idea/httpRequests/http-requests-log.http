@@ -1,3 +1,100 @@
+POST http://localhost:8080/api/auth/like/comment/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE5MzY1NTF9.dmgn1eyzRBpGZ0NbKUs2G12R2zoWpKeBlaJtQKbJpOs
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1Mzk1NTF9.56cy5iRmZ9MJfI7IreOGUDmDDastNvntqM0C6l9ma2s
+
+<> 2022-08-31T173302.200.json
+
+###
+
+POST http://localhost:8080/api/auth/comment
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE5MzY1NTF9.dmgn1eyzRBpGZ0NbKUs2G12R2zoWpKeBlaJtQKbJpOs
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1Mzk1NTF9.56cy5iRmZ9MJfI7IreOGUDmDDastNvntqM0C6l9ma2s
+Content-Type: application/json
+
+{
+"postId":"1",
+"content":"댓글 작성자: 회원1/ 게시글 1의 댓글 1"
+
+}
+
+<> 2022-08-31T173249.200.json
+
+###
+
+POST http://localhost:8080/api/auth/post
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE5MzY1NTF9.dmgn1eyzRBpGZ0NbKUs2G12R2zoWpKeBlaJtQKbJpOs
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1Mzk1NTF9.56cy5iRmZ9MJfI7IreOGUDmDDastNvntqM0C6l9ma2s
+Content-Type: application/json
+
+{
+  "title":"게시글 test1",
+  "content":"회원1의 게시글 내용 1"
+}
+
+<> 2022-08-31T173241.200.json
+
+###
+
+POST http://localhost:8080/api/member/login
+Content-Type: application/json
+
+{
+  "nickname":"kiyeon",
+  "password":"1234"
+}
+
+<> 2022-08-31T173231.200.json
+
+###
+
+POST http://localhost:8080/api/member/signup
+Content-Type: application/json
+
+{
+  "nickname":"seonghee",
+  "password":"1234",
+  "passwordConfirm":"1234"
+}
+
+<> 2022-08-31T173230.200.json
+
+###
+
+POST http://localhost:8080/api/member/signup
+Content-Type: application/json
+
+{
+  "nickname":"kiyeon",
+  "password":"1234",
+  "passwordConfirm":"1234"
+}
+
+<> 2022-08-31T173228.200.json
+
+###
+
+POST http://localhost:8080/api/member/signup
+Content-Type: application/json
+
+{
+  "nickname":"kiyeon",
+  "password":"1234",
+  "passwordConfirm":"1234"
+}
+
+###
+
+POST http://localhost:8080/api/member/signup
+Content-Type: application/json
+
+{
+  "nickname":"kiyeon",
+  "password":"1234",
+  "passwordConfirm":"1234"
+}
+
+###
+
 POST http://localhost:8080/api/auth/like/recomment/2
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE5MzIzODR9.IWwc6BGTFZC-zqcOQP7msaedvHAiQgqywUlakOEXTnc
 Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1MzUzODR9.oZad_PAoCegZkZCkWZP49BVYzbUVOqVus2k2GDma2Mg
@@ -474,106 +571,6 @@ Content-Type: application/json
 }
 
 <> 2022-08-31T071651.200.json
-
-###
-
-POST http://localhost:8080/api/member/login
-Content-Type: application/json
-
-{
-  "nickname":"kiyeon",
-  "password":"1234"
-}
-
-<> 2022-08-31T071520.200.json
-
-###
-
-POST http://localhost:8080/api/member/signup
-Content-Type: application/json
-
-{
-  "nickname":"kiyeon",
-  "password":"1234",
-  "passwordConfirm":"1234"
-}
-
-<> 2022-08-31T071514.200.json
-
-###
-
-POST http://localhost:8080/api/member/login
-Content-Type: application/json
-
-{
-  "nickname":"kiyeon",
-  "password":"1234"
-}
-
-<> 2022-08-31T070350.200.json
-
-###
-
-POST http://localhost:8080/api/member/signup
-Content-Type: application/json
-
-{
-  "nickname":"kiyeon",
-  "password":"1234",
-  "passwordConfirm":"1234"
-}
-
-<> 2022-08-31T070337.200.json
-
-###
-
-POST http://localhost:8080/api/member/login
-Content-Type: application/json
-
-{
-  "nickname":"kiyeon",
-  "password":"1234"
-}
-
-<> 2022-08-31T063705.200.json
-
-###
-
-POST http://localhost:8080/api/member/signup
-Content-Type: application/json
-
-{
-  "nickname":"kiyeon",
-  "password":"1234",
-  "passwordConfirm":"1234"
-}
-
-<> 2022-08-31T063658.200.json
-
-###
-
-POST http://localhost:8080/api/member/login
-Content-Type: application/json
-
-{
-  "nickname":"kiyeon",
-  "password":"1234"
-}
-
-<> 2022-08-31T063307.200.json
-
-###
-
-POST http://localhost:8080/api/member/signup
-Content-Type: application/json
-
-{
-  "nickname":"kiyeon",
-  "password":"1234",
-  "passwordConfirm":"1234"
-}
-
-<> 2022-08-31T063302.200.json
 
 ###
 

@@ -1,0 +1,11 @@
+{
+  "success": true,
+  "data": {
+    "id": 1,
+    "author": "kiyeon",
+    "content": "댓글 작성자: 회원1/ 게시글 1의 댓글 1",
+    "createdAt": "2022-08-31T17:32:48.988146",
+    "modifiedAt": "2022-08-31T17:32:48.988146"
+  },
+  "error": null
+}

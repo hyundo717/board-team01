@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "data": {
+    "id": 1,
+    "title": "게시글 test1",
+    "content": "회원1의 게시글 내용 1",
+    "author": "kiyeon",
+    "imgUrl": null,
+    "commentResponseDtoList": null,
+    "createdAt": "2022-08-31T17:32:41.3743585",
+    "modifiedAt": "2022-08-31T17:32:41.3743585"
+  },
+  "error": null
+}

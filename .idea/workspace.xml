@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52c67505-a82e-47d1-b822-327aecbec4d0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logintest.http" beforeDir="false" afterPath="$PROJECT_DIR$/src/logintest.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermediate/controller/response/CommentResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/intermediate/controller/response/CommentResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermediate/controller/response/RecommentResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/intermediate/controller/response/RecommentResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermediate/controller/response/ResponseMypageDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/intermediate/controller/response/ResponseMypageDto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,19 +84,19 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../board" />
   </component>
   <component name="RunManager" selected="Spring Boot.IntermediateApplication">
-    <configuration name="logintest | 회원1 대댓글2에 좋아요" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/logintest.http" index="25" requestIdentifier="회원1 대댓글2에 좋아요" runType="Run single request">
+    <configuration name="logintest | 멤버1 댓글 달기############################" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/logintest.http" index="8" requestIdentifier="멤버1 댓글 달기############################" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="logintest | ## 회원2 댓글 2에 좋아요 취소" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/logintest.http" index="21" requestIdentifier="## 회원2 댓글 2에 좋아요 취소" runType="Run single request">
+    <configuration name="logintest | 멤버1 게시글 작성#############################1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/logintest.http" index="5" requestIdentifier="멤버1 게시글 작성#############################1" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="logintest | ## 회원2 대댓글1에 좋아요" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/logintest.http" index="22" requestIdentifier="## 회원2 대댓글1에 좋아요" runType="Run single request">
+    <configuration name="logintest | 회원1 댓글1에 좋아요" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/logintest.http" index="18" requestIdentifier="회원1 댓글1에 좋아요" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="logintest | ## 회원2 대댓글2에 좋아요" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/logintest.http" index="23" requestIdentifier="## 회원2 대댓글2에 좋아요" runType="Run single request">
+    <configuration name="logintest | 로그인1####################################" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/logintest.http" index="3" requestIdentifier="로그인1####################################" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="logintest | ## 회원2 대댓글2에 좋아요 취소" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/logintest.http" index="24" requestIdentifier="## 회원2 대댓글2에 좋아요 취소" runType="Run single request">
+    <configuration name="logintest | 회원가입2########################" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/logintest.http" index="2" requestIdentifier="회원가입2########################" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="IntermediateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -103,20 +109,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="HTTP Request.logintest | ## 회원2 댓글 2에 좋아요 취소" />
-      <item itemvalue="HTTP Request.logintest | ## 회원2 대댓글1에 좋아요" />
-      <item itemvalue="HTTP Request.logintest | ## 회원2 대댓글2에 좋아요" />
-      <item itemvalue="HTTP Request.logintest | ## 회원2 대댓글2에 좋아요 취소" />
-      <item itemvalue="HTTP Request.logintest | 회원1 대댓글2에 좋아요" />
       <item itemvalue="Spring Boot.IntermediateApplication" />
+      <item itemvalue="HTTP Request.logintest | 회원가입2########################" />
+      <item itemvalue="HTTP Request.logintest | 로그인1####################################" />
+      <item itemvalue="HTTP Request.logintest | 멤버1 게시글 작성#############################1" />
+      <item itemvalue="HTTP Request.logintest | 멤버1 댓글 달기############################" />
+      <item itemvalue="HTTP Request.logintest | 회원1 댓글1에 좋아요" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.logintest | 회원1 대댓글2에 좋아요" />
-        <item itemvalue="HTTP Request.logintest | ## 회원2 대댓글2에 좋아요 취소" />
-        <item itemvalue="HTTP Request.logintest | ## 회원2 대댓글2에 좋아요" />
-        <item itemvalue="HTTP Request.logintest | ## 회원2 대댓글1에 좋아요" />
-        <item itemvalue="HTTP Request.logintest | ## 회원2 댓글 2에 좋아요 취소" />
+        <item itemvalue="HTTP Request.logintest | 회원1 댓글1에 좋아요" />
+        <item itemvalue="HTTP Request.logintest | 멤버1 댓글 달기############################" />
+        <item itemvalue="HTTP Request.logintest | 멤버1 게시글 작성#############################1" />
+        <item itemvalue="HTTP Request.logintest | 로그인1####################################" />
+        <item itemvalue="HTTP Request.logintest | 회원가입2########################" />
       </list>
     </recent_temporary>
   </component>
@@ -134,6 +140,7 @@
       <workItem from="1661863524555" duration="27481000" />
       <workItem from="1661929782968" duration="167000" />
       <workItem from="1661929969168" duration="832000" />
+      <workItem from="1661934697639" duration="1973000" />
     </task>
     <servers />
   </component>

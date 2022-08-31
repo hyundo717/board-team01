@@ -7,19 +7,18 @@ import lombok.Getter;
 @AllArgsConstructor
 public class ResponseMypageDto<T> {
     private boolean success;
-    private T writePost;
-    private T writeComment;
-//    private T writeRecomment;
-    private T likePost;
-    private T likeComment;
+    private T post;
+    private T comment;
+    private T recomment;
+
     private Error error;
 
-    public static <T> ResponseMypageDto<T> success(T writePost,T writeComment, T likePost, T likeComment) {
-        return new ResponseMypageDto<>(true, writePost, writeComment, likePost, likeComment, null);
+    public static <T> ResponseMypageDto<T> success(T post,T comment, T reomment) {
+        return new ResponseMypageDto<>(true, post, comment, recomment, null);
     }
 
     public static <T> ResponseMypageDto<T> fail(String code, String message) {
-        return new ResponseMypageDto<>(false, null, null, null, null, new Error(code, message));
+        return new ResponseMypageDto<>(false, null, null, null, new Error(code, message));
     }
 
     @Getter
