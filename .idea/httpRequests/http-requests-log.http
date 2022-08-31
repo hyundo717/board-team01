@@ -1,3 +1,243 @@
+POST http://localhost:8080/api/auth/like/recomment/2
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE5MzIzODR9.IWwc6BGTFZC-zqcOQP7msaedvHAiQgqywUlakOEXTnc
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1MzUzODR9.oZad_PAoCegZkZCkWZP49BVYzbUVOqVus2k2GDma2Mg
+
+<> 2022-08-31T163050.200.json
+
+###
+
+POST http://localhost:8080/api/auth/like/recomment/2
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzZW9uZ2hlZSIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTkzMjQwNH0.BlLRyupxFMV3mdfCcFoMtDCyUfozz_b4GFLqnZPvuwg
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1MzU0MDR9.No9yxrs0C24FjViLHGY0rVeLCspMrT3K2aELwkpDm7A
+
+<> 2022-08-31T163036.200.json
+
+###
+
+POST http://localhost:8080/api/auth/like/recomment/2
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzZW9uZ2hlZSIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTkzMjQwNH0.BlLRyupxFMV3mdfCcFoMtDCyUfozz_b4GFLqnZPvuwg
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1MzU0MDR9.No9yxrs0C24FjViLHGY0rVeLCspMrT3K2aELwkpDm7A
+
+<> 2022-08-31T162920.200.json
+
+###
+
+POST http://localhost:8080/api/auth/like/recomment/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzZW9uZ2hlZSIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTkzMjQwNH0.BlLRyupxFMV3mdfCcFoMtDCyUfozz_b4GFLqnZPvuwg
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1MzU0MDR9.No9yxrs0C24FjViLHGY0rVeLCspMrT3K2aELwkpDm7A
+
+<> 2022-08-31T162834.200.json
+
+###
+
+POST http://localhost:8080/api/auth/like/comment/2
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzZW9uZ2hlZSIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTkzMjQwNH0.BlLRyupxFMV3mdfCcFoMtDCyUfozz_b4GFLqnZPvuwg
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1MzU0MDR9.No9yxrs0C24FjViLHGY0rVeLCspMrT3K2aELwkpDm7A
+
+<> 2022-08-31T162823.200.json
+
+###
+
+POST http://localhost:8080/api/auth/like/comment/2
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzZW9uZ2hlZSIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTkzMjQwNH0.BlLRyupxFMV3mdfCcFoMtDCyUfozz_b4GFLqnZPvuwg
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1MzU0MDR9.No9yxrs0C24FjViLHGY0rVeLCspMrT3K2aELwkpDm7A
+
+<> 2022-08-31T162811.200.json
+
+###
+
+POST http://localhost:8080/api/auth/like/comment/2
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE5MzIzODR9.IWwc6BGTFZC-zqcOQP7msaedvHAiQgqywUlakOEXTnc
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1MzUzODR9.oZad_PAoCegZkZCkWZP49BVYzbUVOqVus2k2GDma2Mg
+
+<> 2022-08-31T162754.200.json
+
+###
+
+POST http://localhost:8080/api/auth/like/comment/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE5MzIzODR9.IWwc6BGTFZC-zqcOQP7msaedvHAiQgqywUlakOEXTnc
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1MzUzODR9.oZad_PAoCegZkZCkWZP49BVYzbUVOqVus2k2GDma2Mg
+
+<> 2022-08-31T162730.200.json
+
+###
+
+POST http://localhost:8080/api/auth/like/post/2
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE5MzIzODR9.IWwc6BGTFZC-zqcOQP7msaedvHAiQgqywUlakOEXTnc
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1MzUzODR9.oZad_PAoCegZkZCkWZP49BVYzbUVOqVus2k2GDma2Mg
+
+<> 2022-08-31T162717.200.json
+
+###
+
+POST http://localhost:8080/api/auth/like/post/2
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE5MzIzODR9.IWwc6BGTFZC-zqcOQP7msaedvHAiQgqywUlakOEXTnc
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1MzUzODR9.oZad_PAoCegZkZCkWZP49BVYzbUVOqVus2k2GDma2Mg
+
+<> 2022-08-31T162659.200.json
+
+###
+
+POST http://localhost:8080/api/auth/like/post/2
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzZW9uZ2hlZSIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTkzMjQwNH0.BlLRyupxFMV3mdfCcFoMtDCyUfozz_b4GFLqnZPvuwg
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1MzU0MDR9.No9yxrs0C24FjViLHGY0rVeLCspMrT3K2aELwkpDm7A
+
+<> 2022-08-31T162639.200.json
+
+###
+
+POST http://localhost:8080/api/auth/like/post/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE5MzIzODR9.IWwc6BGTFZC-zqcOQP7msaedvHAiQgqywUlakOEXTnc
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1MzUzODR9.oZad_PAoCegZkZCkWZP49BVYzbUVOqVus2k2GDma2Mg
+
+<> 2022-08-31T162623.200.json
+
+###
+
+POST http://localhost:8080/api/auth/recomment
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzZW9uZ2hlZSIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTkzMjQwNH0.BlLRyupxFMV3mdfCcFoMtDCyUfozz_b4GFLqnZPvuwg
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1MzU0MDR9.No9yxrs0C24FjViLHGY0rVeLCspMrT3K2aELwkpDm7A
+Content-Type: application/json
+
+{
+  "postId":"1",
+  "commentId":"1",
+  "content":"대댓글 작성자: 회원2/ 게시글 1의 댓글 1의 대댓글 2"
+}
+
+<> 2022-08-31T162536.200.json
+
+###
+
+POST http://localhost:8080/api/auth/recomment
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzZW9uZ2hlZSIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTkzMjQwNH0.BlLRyupxFMV3mdfCcFoMtDCyUfozz_b4GFLqnZPvuwg
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1MzU0MDR9.No9yxrs0C24FjViLHGY0rVeLCspMrT3K2aELwkpDm7A
+Content-Type: application/json
+
+{
+  "postId":"1",
+  "commentId":"1",
+  "content":"대댓글 작성자: 회원2/ 게시글 1의 댓글 1의 대댓글 1"
+}
+
+<> 2022-08-31T162534.200.json
+
+###
+
+POST http://localhost:8080/api/auth/comment
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzZW9uZ2hlZSIsImF1dGgiOiJST0xFX01FTUJFUiIsImV4cCI6MTY2MTkzMjQwNH0.BlLRyupxFMV3mdfCcFoMtDCyUfozz_b4GFLqnZPvuwg
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1MzU0MDR9.No9yxrs0C24FjViLHGY0rVeLCspMrT3K2aELwkpDm7A
+Content-Type: application/json
+
+{
+  "postId":"2",
+  "content":"댓글 작성자: 회원2/ 게시글 2의 댓글 2"
+
+}
+
+<> 2022-08-31T162530.200.json
+
+###
+
+POST http://localhost:8080/api/auth/comment
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE5MzIzODR9.IWwc6BGTFZC-zqcOQP7msaedvHAiQgqywUlakOEXTnc
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1MzUzODR9.oZad_PAoCegZkZCkWZP49BVYzbUVOqVus2k2GDma2Mg
+Content-Type: application/json
+
+{
+"postId":"1",
+"content":"댓글 작성자: 회원1/ 게시글 1의 댓글 1"
+
+}
+
+<> 2022-08-31T162527.200.json
+
+###
+
+GET http://localhost:8080/api/post
+
+<> 2022-08-31T162525.200.json
+
+###
+
+POST http://localhost:8080/api/auth/post
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE5MzIzODR9.IWwc6BGTFZC-zqcOQP7msaedvHAiQgqywUlakOEXTnc
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1MzUzODR9.oZad_PAoCegZkZCkWZP49BVYzbUVOqVus2k2GDma2Mg
+Content-Type: application/json
+
+{
+  "title":"게시글 test2",
+  "content":"회원1의 게시글 내용 1"
+}
+
+<> 2022-08-31T162522.200.json
+
+###
+
+POST http://localhost:8080/api/auth/post
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraXllb24iLCJhdXRoIjoiUk9MRV9NRU1CRVIiLCJleHAiOjE2NjE5MzIzODR9.IWwc6BGTFZC-zqcOQP7msaedvHAiQgqywUlakOEXTnc
+Refresh-Token: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI1MzUzODR9.oZad_PAoCegZkZCkWZP49BVYzbUVOqVus2k2GDma2Mg
+Content-Type: application/json
+
+{
+  "title":"게시글 test1",
+  "content":"회원1의 게시글 내용 1"
+}
+
+<> 2022-08-31T162520.200.json
+
+###
+
+POST http://localhost:8080/api/member/login
+Content-Type: application/json
+
+{
+  "nickname":"seonghee",
+  "password":"1234"
+}
+
+<> 2022-08-31T162325.200.json
+
+###
+
+POST http://localhost:8080/api/member/login
+Content-Type: application/json
+
+{
+  "nickname":"kiyeon",
+  "password":"1234"
+}
+
+<> 2022-08-31T162304.200.json
+
+###
+
+POST http://localhost:8080/api/member/signup
+Content-Type: application/json
+
+{
+  "nickname":"seonghee",
+  "password":"1234",
+  "passwordConfirm":"1234"
+}
+
+<> 2022-08-31T162302.200.json
+
+###
+
+POST http://localhost:8080/api/member/signup
+Content-Type: application/json
+
+{
+  "nickname":"kiyeon",
+  "password":"1234",
+  "passwordConfirm":"1234"
+}
+
+<> 2022-08-31T162245.200.json
+
+###
+
 POST http://localhost:8080/api/member/login
 Content-Type: application/json
 
@@ -334,30 +574,6 @@ Content-Type: application/json
 }
 
 <> 2022-08-31T063302.200.json
-
-###
-
-POST http://localhost:8080/api/member/signup
-Content-Type: application/json
-
-{
-  "nickname":"kiyeon",
-  "password":"1234",
-  "passwordConfirm":"1234"
-}
-
-<> 2022-08-31T051209.200.json
-
-###
-
-POST http://localhost:8080/api/member/signup
-Content-Type: application/json
-
-{
-  "nickname":"kiyeon",
-  "password":"1234",
-  "passwordConfirm":"1234"
-}
 
 ###
 
