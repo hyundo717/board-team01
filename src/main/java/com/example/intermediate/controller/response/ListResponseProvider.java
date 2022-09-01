@@ -123,8 +123,7 @@ public class ListResponseProvider {
         List<PostListMyPageDto> postListMyPageDtos = new ArrayList<>();
 
         for(LikePost likePost : likePosts){
-            Long postId = likePost.getPostId();
-            Post post = postRepository.findById(postId).orElse(null);
+            Post post = likePost.getPost();
 
             if(post == null){throw new RuntimeException();}
 
@@ -141,8 +140,8 @@ public class ListResponseProvider {
         List<CommentListMyPageDto> commentListMyPageDtos = new ArrayList<>();
 
         for(LikeCo likeComment : likeComments){
-            Long commentId = likeComment.getCommentId();
-            Comment comment = commentRepository.findById(commentId).orElse(null);
+
+            Comment comment = likeComment.getComment();
 
             if(comment == null){throw new RuntimeException();}
 
@@ -159,8 +158,8 @@ public class ListResponseProvider {
         List<RecommentListMypageDto> recommentListMyPageDtos = new ArrayList<>();
 
         for(LikeReco likeRecomment : likeRecomments){
-            Long recommentId = likeRecomment.getRecommentId();
-            Recomment recomment = recommentRepository.findById(recommentId).orElse(null);
+
+            Recomment recomment = likeRecomment.getRecomment();
 
             if(recomment == null) {throw new RuntimeException();}
 

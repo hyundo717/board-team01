@@ -1,0 +1,12 @@
+{
+  "success": true,
+  "data": {
+    "id": 3,
+    "author": "seonghee",
+    "content": "대댓글입니다",
+    "likesNum": 0,
+    "createdAt": "2022-09-02T00:57:51.5604917",
+    "modifiedAt": "2022-09-02T00:57:51.5604917"
+  },
+  "error": null
+}

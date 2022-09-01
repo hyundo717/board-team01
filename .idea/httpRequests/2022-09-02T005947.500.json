@@ -1,0 +1,6 @@
+{
+  "timestamp": "2022-09-01T15:59:47.257+00:00",
+  "status": 500,
+  "error": "Internal Server Error",
+  "path": "/api/auth/comment/2"
+}

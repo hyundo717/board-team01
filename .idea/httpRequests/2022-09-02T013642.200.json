@@ -1,0 +1,52 @@
+{
+  "success": true,
+  "postList": [
+    {
+      "postId": 1,
+      "title": "게시글 test2",
+      "author": "kiyeon",
+      "imgUrl": null,
+      "content": "회원1의 게시글 내용 2",
+      "likesNum": 0,
+      "commentsNum": 1,
+      "createdAt": "2022-09-02T01:35:52.005765",
+      "modifiedAt": "2022-09-02T01:36:26.946527"
+    },
+    {
+      "postId": 2,
+      "title": "게시글 test2",
+      "author": "kiyeon",
+      "imgUrl": null,
+      "content": "회원1의 게시글 내용 2",
+      "likesNum": 1,
+      "commentsNum": 2,
+      "createdAt": "2022-09-02T01:35:56.343673",
+      "modifiedAt": "2022-09-02T01:36:25.714306"
+    }
+  ],
+  "commentList": [
+    {
+      "commentId": 1,
+      "postId": 1,
+      "author": "kiyeon",
+      "content": "댓글 수정자: 회원2/ 게시글 2의 댓글 1의 본인 수정버전",
+      "likesNum": 0,
+      "recommentsNum": 2,
+      "createdAt": "2022-09-02T01:36:03.881539",
+      "modifiedAt": "2022-09-02T01:36:09.373941"
+    }
+  ],
+  "recommentList": [
+    {
+      "recommentId": 1,
+      "commentId": 1,
+      "postId": 1,
+      "author": "kiyeon",
+      "content": "대댓글 작성자: 회원1/ 게시글 1의 댓글 1의 대댓글 1",
+      "likesNum": 0,
+      "createdAt": "2022-09-02T01:36:14.651785",
+      "modifiedAt": "2022-09-02T01:36:38.591862"
+    }
+  ],
+  "error": null
+}

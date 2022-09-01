@@ -1,6 +1,8 @@
 package com.example.intermediate.domain;
 
 import com.example.intermediate.controller.request.PostRequestDto;
+
+import java.util.ArrayList;
 import java.util.List;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
@@ -44,8 +46,11 @@ public class Post extends Timestamped {
 //  private List<Comment> comments;
 
   //도현님꺼 추가
-  @OneToMany(mappedBy="post", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+  @OneToMany(mappedBy = "post", fetch = FetchType.LAZY, cascade = CascadeType.ALL, orphanRemoval = true)
   private List<Comment> comments;
+
+  @OneToMany(mappedBy = "post", fetch = FetchType.LAZY, cascade = CascadeType.ALL, orphanRemoval = true)
+  private List<LikePost> likePosts;
 
   @JoinColumn(name = "member_id", nullable = false)
   @ManyToOne(fetch = FetchType.LAZY)

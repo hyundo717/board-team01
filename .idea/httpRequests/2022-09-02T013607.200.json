@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "data": {
+    "id": 2,
+    "author": "seonghee",
+    "content": "댓글 작성자: 회원2/ 게시글 2의 댓글 2",
+    "likesNum": 0,
+    "recommentResponseDtoList": null,
+    "createdAt": "2022-09-02T01:36:07.0910832",
+    "modifiedAt": "2022-09-02T01:36:07.0910832"
+  },
+  "error": null
+}

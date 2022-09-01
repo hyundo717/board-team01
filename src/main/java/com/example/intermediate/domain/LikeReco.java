@@ -21,7 +21,8 @@ public class LikeReco {
     @ManyToOne(fetch = FetchType.LAZY)
     private Member member;
 
-    @Column(nullable = false)
-    private Long recommentId;
+    @JoinColumn(name = "recomment_id", nullable = false)
+    @ManyToOne(fetch = FetchType.LAZY)
+    private Recomment recomment;
 
 }

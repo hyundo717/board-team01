@@ -1,0 +1,26 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": 2,
+      "title": "게시글 test2",
+      "author": "kiyeon",
+      "imgUrl": null,
+      "likesNum": 0,
+      "commentsNum": 0,
+      "createdAt": "2022-09-02T01:35:56.343673",
+      "modifiedAt": "2022-09-02T01:35:56.343673"
+    },
+    {
+      "id": 1,
+      "title": "게시글 test2",
+      "author": "kiyeon",
+      "imgUrl": null,
+      "likesNum": 0,
+      "commentsNum": 0,
+      "createdAt": "2022-09-02T01:35:52.005765",
+      "modifiedAt": "2022-09-02T01:35:52.005765"
+    }
+  ],
+  "error": null
+}

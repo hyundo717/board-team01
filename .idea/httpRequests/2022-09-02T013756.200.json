@@ -1,0 +1,8 @@
+{
+  "success": false,
+  "data": null,
+  "error": {
+    "code": "NOT_FOUND",
+    "message": "존재하지 않는 대댓글 id 입니다."
+  }
+}

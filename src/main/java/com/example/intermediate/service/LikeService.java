@@ -45,12 +45,12 @@ public class LikeService {
             return ResponseDto.fail("NOT_FOUND", "존재하지 않는 게시글 id 입니다.");
         }
 
-        LikePost likePost = likePostRepository.findLikePostByMemberAndPostId(member,id).orElse(null);
+        LikePost likePost = likePostRepository.findLikePostByMemberAndPost(member,post).orElse(null);
 
         if (likePost == null){
             LikePost saveLikePost = LikePost.builder()
                     .member(member)
-                    .postId(id)
+                    .post(post)
                     .build();
             likePostRepository.save(saveLikePost);
             post.like();
@@ -87,12 +87,12 @@ public class LikeService {
             return ResponseDto.fail("NOT_FOUND", "존재하지 않는 댓글 id 입니다.");
         }
 
-        LikeCo likeComment = likeCoRepository.findLikeCoByMemberAndCommentId(member,id).orElse(null);
+        LikeCo likeComment = likeCoRepository.findLikeCoByMemberAndComment(member,comment).orElse(null);
 
         if (likeComment == null){
             LikeCo saveLikeComment = LikeCo.builder()
                     .member(member)
-                    .commentId(id)
+                    .comment(comment)
                     .build();
             likeCoRepository.save(saveLikeComment);
             comment.like();
@@ -128,12 +128,12 @@ public class LikeService {
             return ResponseDto.fail("NOT_FOUND", "존재하지 않는 대댓글 id 입니다.");
         }
 
-        LikeReco likeReco = likeRecoRepository.findLikePostByMemberAndRecommentId(member,id).orElse(null);
+        LikeReco likeReco = likeRecoRepository.findLikePostByMemberAndRecomment(member,recomment).orElse(null);
 
         if (likeReco == null){
             LikeReco saveLikeRecomment = LikeReco.builder()
                     .member(member)
-                    .recommentId(id)
+                    .recomment(recomment)
                     .build();
             likeRecoRepository.save(saveLikeRecomment);
             recomment.like();

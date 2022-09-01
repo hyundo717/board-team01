@@ -21,7 +21,8 @@ public class LikeCo {
     @ManyToOne(fetch = FetchType.LAZY)
     private Member member;
 
-    @Column(nullable = false)
-    private Long commentId;
+    @JoinColumn(name = "comment_id", nullable = false)
+    @ManyToOne(fetch = FetchType.LAZY)
+    private Comment comment;
 
 }

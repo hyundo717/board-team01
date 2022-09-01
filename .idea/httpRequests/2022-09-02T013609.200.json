@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "data": {
+    "id": 1,
+    "author": "kiyeon",
+    "content": "댓글 수정자: 회원2/ 게시글 2의 댓글 1의 본인 수정버전",
+    "likesNum": 0,
+    "recommentResponseDtoList": null,
+    "createdAt": "2022-09-02T01:36:03.881539",
+    "modifiedAt": "2022-09-02T01:36:03.881539"
+  },
+  "error": null
+}

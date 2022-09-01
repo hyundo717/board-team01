@@ -21,7 +21,8 @@ public class LikePost {
     @ManyToOne(fetch = FetchType.LAZY)
     private Member member;
 
-    @Column(nullable = false)
-    private Long postId;
+    @JoinColumn(name = "post_id", nullable = false)
+    @ManyToOne(fetch = FetchType.LAZY)
+    private Post post;
 
 }
