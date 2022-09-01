@@ -3,6 +3,7 @@ package com.example.intermediate.controller;
 import com.example.intermediate.controller.request.LoginRequestDto;
 import com.example.intermediate.controller.request.MemberRequestDto;
 import com.example.intermediate.controller.response.ResponseDto;
+import com.example.intermediate.controller.response.mypage.ResponseMypageDto;
 import com.example.intermediate.service.MemberService;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -29,6 +30,16 @@ public class MemberController {
       HttpServletResponse response
   ) {
     return memberService.login(requestDto, response);
+  }
+
+  @RequestMapping(value = "/api/auth/member/mypage/writes", method = RequestMethod.GET)
+  public ResponseMypageDto mypageWrite(HttpServletRequest request) {
+    return memberService.mypageWrite(request);
+  }
+
+  @RequestMapping(value = "/api/auth/member/mypage/likes", method = RequestMethod.GET)
+  public ResponseMypageDto mypageLike(HttpServletRequest request) {
+    return memberService.mypageLike(request);
   }
 
 //  @RequestMapping(value = "/api/auth/member/reissue", method = RequestMethod.POST)

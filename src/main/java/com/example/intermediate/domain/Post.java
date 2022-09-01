@@ -34,17 +34,37 @@ public class Post extends Timestamped {
   @Column(nullable = false)
   private String content;
 
-  @OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL, orphanRemoval = true)
+  @Column
+  private int likesNum;
+
+  @Column
+  private String imgUrl;
+
+//  @OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL, orphanRemoval = true)
+//  private List<Comment> comments;
+
+  //도현님꺼 추가
+  @OneToMany(mappedBy="post", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
   private List<Comment> comments;
 
   @JoinColumn(name = "member_id", nullable = false)
   @ManyToOne(fetch = FetchType.LAZY)
   private Member member;
 
-  public void update(PostRequestDto postRequestDto) {
+  public void update(PostRequestDto postRequestDto, String storedFileName) {
     this.title = postRequestDto.getTitle();
     this.content = postRequestDto.getContent();
+    this.imgUrl = storedFileName;
   }
+
+  public void like(){
+    this.likesNum += 1;
+  }
+
+  public void unlike(){
+    this.likesNum -= 1;
+  }
+
 
   public boolean validateMember(Member member) {
     return !this.member.equals(member);

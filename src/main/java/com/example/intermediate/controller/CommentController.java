@@ -30,6 +30,8 @@ public class CommentController {
     return commentService.getAllCommentsByPost(id);
   }
 
+
+
   @RequestMapping(value = "/api/auth/comment/{id}", method = RequestMethod.PUT)
   public ResponseDto<?> updateComment(@PathVariable Long id, @RequestBody CommentRequestDto requestDto,
       HttpServletRequest request) {
