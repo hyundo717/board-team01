@@ -1,3 +1,3 @@
 # Mentoring-Assignment-Intermediate
 ## ERD
-<img src = "./board-team10-erd">
+<img src = "./board-team10-erd.png">
